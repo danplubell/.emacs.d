@@ -1,2 +1,4 @@
-((("FetalMovement" .
+((("package-safe-install" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FetalMovement" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0])))

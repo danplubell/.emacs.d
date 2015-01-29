@@ -1,4 +1,3 @@
-(setq ghc-debug t)
 ;;package archives
 (require 'package)
 (add-to-list 'package-archives
@@ -15,6 +14,9 @@
 	     '("melpa" . "http://melpa.org/packages/"))
 (package-initialize)
 
+;;turn off backup files and autosave
+(setq make-backup-files nil)
+(setq auto-save-default nil)
 
 ;;functions
 (defun package-safe-install (&rest packages)
@@ -32,6 +34,15 @@
 (ac-config-default)
 (setq ac-use-fuzzy t)
 
+;;flycheck
+;;(package-safe-install 'flycheck)
+;;(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;;(package-safe-install 'flycheck-haskell)
+;;(eval-after-load 'flycheck
+;;  '(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
+
+
 ;;Line numbers
 (global-linum-mode 1)
 
@@ -42,6 +53,15 @@
 
 ;;haskell
 (package-safe-install 'haskell-mode)
+
+(package-safe-install 'flymake-easy)
+(package-safe-install 'flymake-haskell-multi)
+(require 'flymake-haskell-multi) 
+(add-hook 'haskell-mode-hook 'flymake-haskell-multi-load)
+(package-safe-install 'flymake-cursor)
+(eval-after-load 'flymake '(require 'flymake-cursor))
+
+;;turn off ghc-mod until ghc 7.10 is released because 7.8.3 is not compatible with cabal 1.22
 ;;(autoload 'ghc-init "ghc" nil t)
 ;;(autoload 'ghc-debug "ghc" nil t)
 ;;(add-hook 'haskell-mode-hook (lambda () (ghc-init)))
