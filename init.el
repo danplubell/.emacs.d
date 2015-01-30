@@ -26,6 +26,11 @@
 ;;; Commentary:
 
 
+;;package management
+
+;; Please don't load outdated byte code
+(setq load-prefer-newer t)
+
 ;;package archives
 (require 'package)
 ;;; Code:
@@ -55,12 +60,16 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
+;;turn on cua
+(cua-mode 1)
+
 ;;functions
 (defun package-safe-install (&rest packages)
   (dolist (package packages)
     (unless (package-installed-p package)
       (package-install package))
     (require package)))
+
 
 ;;autocomplete
 (package-safe-install 'auto-complete)
@@ -105,9 +114,82 @@
 (global-linum-mode 1)
 
 ;;remove menu bars
-(dolist (mode '(menu-bar-mode tool-bar-mode scroll-bar-mode))
-  (when (fboundp mode) (funcall mode -1)))
-(setq inhibit-startup-screen t)
+;;(dolist (mode '(menu-bar-mode tool-bar-mode scroll-bar-mode))
+;;  (when (fboundp mode) (funcall mode -1)))
+;;(setq inhibit-startup-screen t)
+
+;;; User interface
+
+;; Get rid of tool bar, menu bar and scroll bars.  On OS X we preserve the menu
+;; bar, since the top menu bar is always visible anyway, and we'd just empty it
+;; which is rather pointless.
+(when (fboundp 'tool-bar-mode)
+  (tool-bar-mode -1))
+(when (and (not (eq system-type 'darwin)) (fboundp 'menu-bar-mode))
+  (menu-bar-mode -1))
+(when (fboundp 'scroll-bar-mode)
+  (scroll-bar-mode -1))
+
+;; No blinking and beeping, no startup screen, no scratch message and short
+;; Yes/No questions.
+(blink-cursor-mode -1)
+(setq ring-bell-function #'ignore
+      inhibit-startup-screen t
+      initial-scratch-message nil)
+(fset 'yes-or-no-p #'y-or-n-p)
+;; Opt out from the startup message in the echo area by simply disabling this
+;; ridiculously bizarre thing entirely.
+(fset 'display-startup-echo-area-message #'ignore)
+
+(use-package dynamic-fonts              ; Select best available font
+  :ensure t
+  :init
+  (progn
+    (setq dynamic-fonts-preferred-monospace-fonts
+	  '(
+	    ;; Best fonts
+	    "Source Code Pro"   ; https://github.com/adobe-fonts/source-code-pro
+	    "Anonymous Pro" ; http://www.marksimonson.com/fonts/view/anonymous-pro
+	    ;; Consolas and its free alternative.  Ok, but not my preference
+	    "Inconsolata"
+	    "Consolas"
+	    ;; Also still kind of ok
+	    "Fira Mono"
+	    ;; System fonts, as last resort
+	    "Menlo"
+	    "DejaVu Sans Mono"
+	    "Bitstream Vera Mono"
+	    "Courier New")
+	  dynamic-fonts-preferred-monospace-point-size (pcase system-type
+							 (`darwin 13)
+							 (_ 10))
+	  dynamic-fonts-preferred-proportional-fonts
+	  '(
+	    ;; Best, from
+	    ;; https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/
+	    "Fira Sans"
+	    ;; System fonts, as last resort
+	    "Helvetica"
+	    "Segoe UI"
+	    "DejaVu Sans"
+	    "Bitstream Vera"
+	    "Tahoma"
+	    "Verdana"
+	    "Arial Unicode MS"
+	    "Arial")
+	  dynamic-fonts-preferred-proportional-point-size (pcase system-type
+							    (`darwin 13)
+							    (_ 10)))
+
+    (dynamic-fonts-setup)))
+
+(use-package unicode-fonts              ; Map Unicode blocks to fonts
+  :ensure t
+  :init (unicode-fonts-setup))
+
+
+(bind-key "C-c t v" #'variable-pitch-mode)
+
 
 ;;haskell
 (package-safe-install 'haskell-mode)
