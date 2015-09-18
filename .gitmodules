@@ -1,0 +1,6 @@
+[submodule "packages/stack-ide"]
+	path = packages/stack-ide
+	url = git@github.com:commercialhaskell/stack-ide.git
+[submodule "packages/hindent"]
+	path = packages/hindent
+	url = https://github.com/chrisdone/hindent.git

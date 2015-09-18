@@ -34,3 +34,4 @@
 (depends-on "ghc")
 (depends-on "company")
 (depends-on "company-ghc")
+(depends-on "stack-mode" :git "https://github.com/commercialhaskell/stack-ide.git" :files ("stack-mode/*.el"))

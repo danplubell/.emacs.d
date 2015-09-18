@@ -55,8 +55,9 @@
     (set-face-attribute 'flycheck-error-list-checker-name nil :inherit 'italic))
   :diminish flycheck-mode)
 
-(req-package flycheck-pos-tip-error-messages
-  :init
+(req-package flycheck-pos-tip
+  :require flycheck
+  :config
   (setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
 
 
@@ -141,6 +142,7 @@
       '(add-to-list 'ac-modes 'haskell-interactive-mode))
     )
 )
+(req-package stack-mode)
 
 (req-package-finish)
 ;;; custom.el ends here
