@@ -1,10 +1,62 @@
-((("ByteString" .
-   [1 0 0 0 0 0 0 0 0 0])
+((("Lazy" .
+   [1 0 0 0])
+  ("ByteString" .
+   [0 0 0 0 1 0 0 0 0 0])
   ("Data" .
    [1 0 0 0])
-  ("package-safe-install" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("FetalMovement" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-load-or-reload" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("flycheck-display-errors-function" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  (":init" .
+   [1 0 0 0 0])
+  (":defer" .
+   [1 0 0 0 0 0])
+  (":" .
+   [1])
+  ("flycheck-pos-tip-error-messages" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("bind-key" .
+   [1 0 0 0 0 0 0 0])
+  ("flycheck-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  (":bind" .
+   [1 0 0 0 0])
   (":ensure" .
-   [1 0 0 0 0 0 0])))
+   [2 0 0 0 0 0 0])
+  ("flycheck" .
+   [1 0 0 0 0 0 0 0])
+  ("req-package" .
+   [4 0 0 1 0 0 0 0 0 0 0])
+  ("turn-on-haskell-indentation" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  (":require" .
+   [2 0 0 0 0 0 0 0])
+  ("auto-complete" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-mode" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  (":config" .
+   [2 0 0 0 0 0 0])
+  ("progn" .
+   [2 0 0 0 0])
+  ("add-hook" .
+   [2 0 0 0 0 0 0 0])
+  ("interactive-haskell-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-haskell-process-setup" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-interactive-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("ac-modes" .
+   [1 0 0 0 0 1 0 0])
+  ("haskell-interactive-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("eval-after-load" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  (":load-path" .
+   [0 0 0 0 0 1 0 0 0 0])))
