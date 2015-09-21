@@ -40,6 +40,8 @@
   :init
   (progn
     (ac-config-default)
+    (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+    (setq ac-comphist-file "~/.emacs.d/ac-comphist.dat")
     (setq ac-auto-start 3)
     (setq ac-use-fuzzy t))
   :config

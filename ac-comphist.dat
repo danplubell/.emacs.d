@@ -1,74 +1,78 @@
-((("exitSuccess" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("exitFailure" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("Lazy" .
+((("ac-comphist-file" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ac-dictionary-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("shm-quarantine-face" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eee8d5" .
+   [1 0 0 0 0 0])
+  ("shm-current-face" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("set-face-background" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
+  (":load-path" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("eval-after-load" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("haskell-interactive-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("ac-modes" .
+   [1 0 0 0 0 1 0 0])
+  ("add-to-list" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-interactive-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("ac-haskell-process-setup" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("interactive-haskell-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("add-hook" .
+   [2 0 0 0 0 0 0 0])
+  ("progn" .
+   [3 0 0 0 0])
+  (":config" .
+   [5 0 0 0 0 0 0])
+  ("haskell-mode" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-complete" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":require" .
+   [3 0 0 0 0 0 0 0])
+  ("turn-on-haskell-indentation" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("req-package" .
+   [5 0 0 1 0 0 0 0 0 0 0])
+  ("flycheck" .
+   [2 0 0 0 0 0 0 0])
+  (":ensure" .
+   [2 0 0 0 0 0 0])
+  (":bind" .
+   [1 0 0 0 0])
+  ("flycheck-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("bind-key" .
+   [1 0 0 0 0 0 0 0])
+  ("flycheck-pos-tip-error-messages" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":" .
+   [1])
+  (":defer" .
+   [1 0 0 0 0 0])
+  (":init" .
+   [1 0 0 0 0])
+  ("setq" .
+   [2 0 0 0])
+  ("flycheck-display-errors-function" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-load-or-reload" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Data" .
    [1 0 0 0])
   ("ByteString" .
    [0 0 0 0 1 0 0 0 0 0])
-  ("Data" .
+  ("Lazy" .
    [1 0 0 0])
-  ("haskell-process-load-or-reload" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("flycheck-display-errors-function" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setq" .
-   [1 0 0 0])
-  (":init" .
-   [1 0 0 0 0])
-  (":defer" .
-   [1 0 0 0 0 0])
-  (":" .
-   [1])
-  ("flycheck-pos-tip-error-messages" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("bind-key" .
-   [1 0 0 0 0 0 0 0])
-  ("flycheck-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0])
-  (":bind" .
-   [1 0 0 0 0])
-  (":ensure" .
-   [2 0 0 0 0 0 0])
-  ("flycheck" .
-   [2 0 0 0 0 0 0 0])
-  ("req-package" .
-   [5 0 0 1 0 0 0 0 0 0 0])
-  ("turn-on-haskell-indentation" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  (":require" .
-   [3 0 0 0 0 0 0 0])
-  ("auto-complete" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-mode" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  (":config" .
-   [5 0 0 0 0 0 0])
-  ("progn" .
-   [3 0 0 0 0])
-  ("add-hook" .
-   [2 0 0 0 0 0 0 0])
-  ("interactive-haskell-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ac-haskell-process-setup" .
-   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-interactive-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("add-to-list" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("ac-modes" .
-   [1 0 0 0 0 1 0 0])
-  ("haskell-interactive-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
-  ("eval-after-load" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  (":load-path" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("set-face-background" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
-  ("shm-current-face" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("eee8d5" .
-   [1 0 0 0 0 0])
-  ("shm-quarantine-face" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("exitFailure" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("exitSuccess" .
+   [1 0 0 0 0 0 0 0 0 0 0])))
