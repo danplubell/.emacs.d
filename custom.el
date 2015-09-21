@@ -98,7 +98,8 @@
       (diminish 'eldoc-mode "")
       (turn-on-haskell-decl-scan)
       (setq evil-auto-indent nil))
-    (setq haskell-font-lock-symbols 'unicode)
+      (setq haskell-font-lock-symbols 'unicode)
+      
     (setq haskell-literate-default 'tex)
     (setq haskell-stylish-on-save t)
     (setq haskell-tags-on-save t)
@@ -106,6 +107,7 @@
     (setq haskell-process-load-or-reload-prompt t)
     (setq haskell-interactive-mode-hide-multi-line-errors nil)
     (setq haskell-process-type (quote cabal-repl))
+;;    (add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
     (add-hook 'haskell-mode-hook 'my-haskell-hook)))
 
 (req-package flycheck-haskell
@@ -116,6 +118,16 @@
   :commands structured-haskell-mode
   :init (add-hook 'haskell-mode-hook
 		  'structured-haskell-mode))
+  :config
+  (eval-after-load 'shm
+   '(progn
+     (set-face-background 'shm-current-face "#eee8d5")
+     (set-face-background 'shm-quarantine-face "lemonchiffon")))
+;;(eval-after-load 'shm
+;;  '(progn
+;;     (set-face-background 'shm-current-face "#eee8d5")
+;;     (set-face-background 'shm-quarantine-face "lemonchiffon")))
+
 ;;(req-package ghc
 ;;  :init (add-hook 'haskell-mode-hook (lambda () (ghc-init))))
 
@@ -144,5 +156,10 @@
 )
 (req-package stack-mode)
 
+
+(fset 'display-startup-echo-area-message #'ignore)
+(fset 'yes-or-no-p #'y-or-n-p)
+
 (req-package-finish)
+
 ;;; custom.el ends here
