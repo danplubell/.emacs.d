@@ -1,4 +1,10 @@
-((("ac-comphist-file" .
+((("seed" .
+   [1 0 0 0])
+  ("main" .
+   [19 0 0 0])
+  ("randomList" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ac-comphist-file" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("ac-dictionary-files" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
@@ -61,7 +67,7 @@
   (":init" .
    [1 0 0 0 0])
   ("setq" .
-   [2 0 0 0])
+   [3 0 0 0])
   ("flycheck-display-errors-function" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("haskell-process-load-or-reload" .
@@ -75,4 +81,8 @@
   ("exitFailure" .
    [1 0 0 0 0 0 0 0 0 0 0])
   ("exitSuccess" .
-   [1 0 0 0 0 0 0 0 0 0 0])))
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-type" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("quote" .
+   [1 0 0 0 0])))

@@ -108,7 +108,8 @@
     (setq haskell-process-log t)
     (setq haskell-process-load-or-reload-prompt t)
     (setq haskell-interactive-mode-hide-multi-line-errors nil)
-    (setq haskell-process-type (quote cabal-repl))
+    (setq haskell-process-type (quote auto))
+    ;;    (setq haskell-process-type (quote cabal-repl))
 ;;    (add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
     (add-hook 'haskell-mode-hook 'my-haskell-hook)))
 
