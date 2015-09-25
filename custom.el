@@ -126,10 +126,6 @@
    '(progn
      (set-face-background 'shm-current-face "#eee8d5")
      (set-face-background 'shm-quarantine-face "lemonchiffon")))
-;;(eval-after-load 'shm
-;;  '(progn
-;;     (set-face-background 'shm-current-face "#eee8d5")
-;;     (set-face-background 'shm-quarantine-face "lemonchiffon")))
 
 ;;(req-package ghc
 ;;  :init (add-hook 'haskell-mode-hook (lambda () (ghc-init))))
