@@ -110,22 +110,22 @@
     (setq haskell-interactive-mode-hide-multi-line-errors nil)
     (setq haskell-process-type (quote auto))
     ;;    (setq haskell-process-type (quote cabal-repl))
-;;    (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+    (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
     (add-hook 'haskell-mode-hook 'my-haskell-hook)))
 
 (req-package flycheck-haskell
     :config (add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
-(req-package shm
-  :require haskell-mode
-  :commands structured-haskell-mode
-  :init (add-hook 'haskell-mode-hook
-		  'structured-haskell-mode))
-  :config
-  (eval-after-load 'shm
-   '(progn
-     (set-face-background 'shm-current-face "#eee8d5")
-     (set-face-background 'shm-quarantine-face "lemonchiffon")))
+;;(req-package shm
+;;  :require haskell-mode
+;;  :commands structured-haskell-mode
+;;  :init (add-hook 'haskell-mode-hook
+;;		  'structured-haskell-mode))
+;;  :config
+;;  (eval-after-load 'shm
+;;   '(progn
+;;     (set-face-background 'shm-current-face "#eee8d5")
+;;     (set-face-background 'shm-quarantine-face "lemonchiffon")))
 
 ;;(req-package ghc
 ;;  :init (add-hook 'haskell-mode-hook (lambda () (ghc-init))))
