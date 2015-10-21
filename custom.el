@@ -81,7 +81,7 @@
   :config
   (progn
     (req-package inf-haskell)
-    (req-package hs-lint)
+;;    (req-package hs-lint)
     (bind-key "C-x C-d" nil haskell-mode-map)
     (bind-key "C-c C-z" 'haskell-interactive-switch haskell-mode-map)
     (bind-key "C-c C-l" 'haskell-process-load-file haskell-mode-map)
@@ -110,7 +110,7 @@
     (setq haskell-interactive-mode-hide-multi-line-errors nil)
     (setq haskell-process-type (quote auto))
     ;;    (setq haskell-process-type (quote cabal-repl))
-;;    (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+    (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
     (add-hook 'haskell-mode-hook 'my-haskell-hook)))
 
 (req-package flycheck-haskell
@@ -155,6 +155,7 @@
 )
 (req-package stack-mode)
 
+(req-package hindent)
 
 (fset 'display-startup-echo-area-message #'ignore)
 (fset 'yes-or-no-p #'y-or-n-p)
@@ -162,3 +163,15 @@
 (req-package-finish)
 
 ;;; custom.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(hindent-style "chris-done"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -1,4 +1,168 @@
-((("sendError404" .
+((("fileNames" .
+   [1 0 0 0 0 0 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("Monad" .
+   [0 0 0 1 0])
+  ("args" .
+   [5 0 0 0])
+  ("TokenizeOnly" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("Flag" .
+   [1 0 0 0])
+  ("Options" .
+   [1 0 0 0 0 0 0])
+  ("System" .
+   [2 0 0 0 0 0])
+  ("calcHeight" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("liftA2" .
+   [3 0 0 0 0 0])
+  ("listToMaybe" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("printf" .
+   [1 0 0 0 0 0])
+  ("resultm" .
+   [1 0 0 0 0 0 0])
+  ("resultf" .
+   [5 0 0 0 0 0 0])
+  ("margin" .
+   [1 0 0 0 0 0])
+  ("layout" .
+   [1 0 0 0 0 0])
+  ("ScopedTypeVariables" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("network" .
+   [1 0 0 0 0 0 0])
+  ("networkDescription" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("showNumber" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("text" .
+   [4 0 0 0])
+  ("readNumber" .
+   [9 0 0 0 0 0 0 0 0 0])
+  ("bdHeightIn" .
+   [11 0 0 0 0 0 0 0 0 0])
+  ("bmHeightIn" .
+   [10 0 0 0 0 0 0 0 0 0])
+  ("behaviorText" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("label" .
+   [5 0 0 0 0])
+  ("dHeightIn" .
+   [2 0 0 0 0 0 0 0 0])
+  ("widget" .
+   [6 0 0 0 0 0])
+  ("mHeightIn" .
+   [3 0 0 0 1 0 0 0 0])
+  ("entry" .
+   [1 0 0 0 0])
+  ("Banana" .
+   [2 0 0 0 0 0])
+  ("Reactive" .
+   [2 0 0 0 0 0 0 0])
+  ("InWindow" .
+   [1 0 0 0 0 0 0 0])
+  ("onDisplay" .
+   [2 0 0 0 0 0 0 0 0])
+  ("drawScene" .
+   [2 0 0 0 0 0 0 0 0])
+  ("ExitSuccess" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("terminate" .
+   [1 0 0 0 0 0 0 0 0])
+  ("destroyWindow" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("forever" .
+   [1 0 0 0 0 0 0])
+  ("Control" .
+   [2 0 0 0 0 0 0])
+  ("exitWith" .
+   [2 0 0 0 0 0 0 0])
+  ("Window" .
+   [1 0 0 6 0 0])
+  ("shutdown" .
+   [2 0 0 0 0 0 0 0])
+  ("initGL" .
+   [2 0 0 0 0 0])
+  ("isEOF" .
+   [1 0 0 0 0])
+  ("processLine" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("Set" .
+   [1 0 0])
+  ("snd" .
+   [1 0 0])
+  ("get" .
+   [1 0 0])
+  ("evaluate" .
+   [4 0 0 0 0 0 0 0])
+  ("level" .
+   [2 0 0 0 0])
+  ("showTree" .
+   [2 0 0 0 0 0 0 0])
+  ("showNode" .
+   [2 0 0 0 0 0 0 0])
+  ("AssignNode" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("Tree" .
+   [2 0 0 0])
+  ("TokenRational" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Rational" .
+   [2 0 0 0 0 0 0 0])
+  ("cs'" .
+   [1 0 0])
+  ("cnvtToTokenNum" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("isDecimalOrDigit" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("isAlpha" .
+   [1 0 0 0 0 0 0])
+  ("m" .
+   [1])
+  ("t" .
+   [1])
+  ("Double" .
+   [3 0 0 0 0 0])
+  ("isNumChar" .
+   [1 0 0 0 0 0 0 0 0])
+  ("isNumber" .
+   [2 0 0 0 0 0 0 0])
+  ("pack" .
+   [1 0 0 0])
+  ("package" .
+   [0 0 0 0 1 0 0])
+  ("String" .
+   [4 0 0 0 0 0])
+  ("Either" .
+   [2 0 0 0 0 0])
+  ("Integer" .
+   [1 0 0 0 0 0 0])
+  ("signed" .
+   [3 0 0 0 0 0])
+  ("Read" .
+   [1 0 0 0])
+  ("+Data" .
+   [1 0 0 0 0])
+  ("Int" .
+   [2 0 0])
+  ("read" .
+   [10 0 0 0])
+  ("character" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Convert" .
+   [2 0 0 0 0 0 0])
+  ("tokenizer" .
+   [4 0 0 0 0 0 0 0 0])
+  ("max" .
+   [3 0 0])
+  ("min" .
+   [4 0 0])
+  ("Token" .
+   [9 0 0 0 0])
+  ("sendError404" .
    [3 0 0 0 0 0 0 0 0 0 0 0])
   ("ServantErr" .
    [1 0 0 0 0 0 0 0 0 0])
@@ -27,7 +191,7 @@
   ("sendBadRequest" .
    [5 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("Text" .
-   [3 0 0 0])
+   [9 0 0 0])
   ("ActionCtxT" .
    [1 0 0 0 0 0 1 0 0 0])
   ("hand" .
@@ -45,7 +209,7 @@
   ("ByteString" .
    [4 0 0 0 1 0 0 0 0 0])
   ("Data" .
-   [5 0 0 0])
+   [19 0 0 0])
   ("haskell-process-load-or-reload" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("flycheck-display-errors-function" .
@@ -117,7 +281,7 @@
   ("randomList" .
    [1 0 0 0 0 0 0 0 0 0])
   ("main" .
-   [19 0 0 0])
+   [21 0 0 0])
   ("seed" .
    [1 0 0 0])
   ("param" .
@@ -125,4 +289,158 @@
   ("lonp" .
    [1 0 0 0])
   ("error" .
-   [0 0 0 1 0])))
+   [0 0 0 1 0])
+  ("tokenize" .
+   [54 0 0 0 0 0 0 0])
+  ("operator" .
+   [4 0 0 0 0 0 0 0])
+  ("tokenizeChar" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("TokenWhiteSpace" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("number" .
+   [9 0 0 0 0 0])
+  ("isDigit" .
+   [5 0 0 0 0 0 0])
+  ("digs" .
+   [3 0 0 0])
+  ("identifier" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Code" .
+   [6 0 0 0])
+  ("Sequence" .
+   [1 0 0 0 0 0 0 0])
+  ("emit" .
+   [1 0 0 0])
+  ("syms" .
+   [4 0 0 0])
+  ("DEST" .
+   [1 0 0 0])
+  ("toList" .
+   [2 0 0 0 0 0])
+  ("DSEQ" .
+   [34 0 0 0])
+  ("emitInstructions" .
+   [1 0 0 0 10 1 0 0 0 0 0 0 0 0 0 0])
+  ("rest" .
+   [1 0 0 0])
+  ("SymbolNode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("generate" .
+   [28 0 0 0 0 0 0 0])
+  ("parse" .
+   [23 0 0 0 0])
+  ("empty" .
+   [31 0 0 0 0])
+  ("DSET" .
+   [17 0 0 0])
+  ("foldl" .
+   [1 0 0 0 0])
+  ("scanl" .
+   [0 0 0 0 1])
+  ("mapM_" .
+   [1 0 0 0 1])
+  ("g" .
+   [1])
+  ("RPN" .
+   [1 0 0])
+  ("let" .
+   [14 0 0])
+  ("p" .
+   [1])
+  ("emitRawInstructions" .
+   [0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("evaluator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("loop" .
+   [4 0 0 0])
+  ("gfr" .
+   [7 0 0])
+  ("hscrp" .
+   [3 0 0 0 0])
+  ("htscrpr" .
+   [4 0 0 0 0 0 0])
+  ("hscr" .
+   [2 0 0 0])
+  ("hscr**0" .
+   [1 0 0 0 0 0 0])
+  ("numOfDecimals" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("floatNum" .
+   [1 0 0 0 0 0 0 0])
+  ("formatFloatN" .
+   [1 0 0 0 0 0 0 1 0 0 0 0])
+  ("Male" .
+   [2 0 0 0])
+  ("Female" .
+   [3 0 0 0 0 0])
+  ("hammingDistance" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ACGT" .
+   [2 0 0 0])
+  ("nucleotideCounts" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("count" .
+   [1 0 0 0 0])
+  ("AACCCGGTT" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Graphics" .
+   [2 0 0 0 0 0 0 0])
+  ("GLFW" .
+   [24 0 0 0])
+  ("frame" .
+   [2 0 0 0 0])
+  ("width" .
+   [9 0 0 0 0])
+  ("height" .
+   [6 0 0 0 0 0])
+  ("picture" .
+   [2 0 0 0 0 0 0])
+  ("pWidth" .
+   [1 0 0 0 0 0])
+  ("BitMap" .
+   [1 0 0 0 0 0])
+  ("Picture" .
+   [2 0 0 0 0 0 0])
+  ("pHeight" .
+   [4 0 0 0 0 0 0])
+  ("Bitmap" .
+   [2 0 0 0 0 0])
+  ("filename" .
+   [2 0 0 0 0 0 0 0])
+  ("staticText" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pmHeight" .
+   [1 0 0 0 0 0 0 0])
+  ("pfHeight" .
+   [3 0 0 0 0 0 0 0])
+  ("result" .
+   [1 0 0 0 0 0])
+  ("line" .
+   [7 0 0 0])
+  ("getArgs" .
+   [2 0 0 0 0 0 0])
+  ("input" .
+   [6 0 0 1 0])
+  ("options" .
+   [1 0 0 0 0 0 0])
+  ("flags" .
+   [6 0 0 0 0])
+  ("outf" .
+   [4 0 0 0])
+  ("handleFlags" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("stdout" .
+   [1 0 0 0 0 0])
+  ("msgs" .
+   [1 0 0 0])
+  ("usageMsg" .
+   [2 0 0 0 0 0 0 0])
+  ("NoFlag" .
+   [1 0 0 0 0 0])
+  ("flgs" .
+   [1 0 0 0])
+  ("outp" .
+   [1 0 0 0])
+  ("files" .
+   [1 0 0 0 0])))
