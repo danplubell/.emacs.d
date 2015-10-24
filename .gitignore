@@ -1,2 +1,7 @@
 /elpa/
 /var/
+.cask/
+auto-save-list/
+emacs-init.el
+*.~undo-tree~
+  

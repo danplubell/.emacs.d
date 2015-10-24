@@ -1,0 +1,51 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/cerdep/Documents/haskell/CTG1371/library/Data/" . "CTG1371/")
+ ("/Users/cerdep/Documents/haskell/CTG1371/library/" . "Data/")
+ ("/Users/cerdep/Documents/haskell/CTG1371/" . "test-suite/")
+ ("/Users/cerdep/Documents/haskell/" . "CTG1371/")
+ ("/Users/cerdep/Documents/" . "haskell/")
+ ("/Users/cerdep/" . "Documents/")
+ ("/Users/" . "cerdep/")
+ ("/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/cerdep/Documents/haskell/CTG1371/test-suite/"
+ "/Users/cerdep/Documents/haskell/CTG1371/library/Data/CTG1371/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "EncoderSpec.hs"
+ "Parser.hs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/cerdep/Documents/haskell/CTG1371/test-suite/" (22012 3843 0 0) "Spec.hs" "HPC.hs" "HLint.hs_save" "Haddock.hs" "EncodeSpec.hs" "EncoderSpec.hs" "DocTest.hs" "CTG1371Spec.hs" "../" "./")
+
+ ("/Users/cerdep/Documents/haskell/CTG1371/" (22012 9028 0 0) "tmp/" "test-suite/" "stack.yaml" "Setup.hs" "session.90813/" "README.md" "Makefile" "LICENSE.md" "library/" "HLint.hs" "Haskeleton.hs" "dist/" "CTG1371.cabal" "CONTRIBUTING.md" "CHANGELOG.md" "cabal.sandbox.config" "benchmark/" ".travis.yml" ".stylish-haskell.yaml" ".stack-work/" ".hpc/" ".gitignore" ".gitattributes" ".git/" ".DS_Store" ".cabal-sandbox/" "../" "./")
+
+ ("/Users/cerdep/Documents/haskell/CTG1371/library/Data/CTG1371/" (22011 9993 0 0) "Parser.hs" "Internal/" "Encoder.hs" "../" "./")
+
+ ("/Users/cerdep/Documents/haskell/CTG1371/library/Data/" (21723 47237 0 0) "CTG1371/" ".DS_Store" "../" "./")
+
+ ("/Users/cerdep/Documents/haskell/CTG1371/library/" (21698 42098 0 0) "Data/" ".DS_Store" "../" "./")
+
+ ("/Users/cerdep/Documents/haskell/" (22011 6083 0 0) "xsd2h/" "tzworlddb/" "tzworld_save/" "tzworld-spock/" "tzworld-snap/" "tzworld-scotty/" "tzworld-happstack/" "tzworld-builder/" "tzworld-api/" "snaptutorial/" "snaptest/" "snapdefault/" "snapbarebones/" "saveit/" "profiling/" "ntp-client/" "network-transport-toys/" "neil/" "monitor-utilities/" "hyaff/" "haskell-docs/" "haskeleton-example/" "ghc071002-base-sandbox/" "frag/" "dicom/" "data-fhir-model/" "CTG1371/" "crctable/" "course/" "color-noise/" ".metadata/" ".DS_Store" "../" "./")
+
+ ("/Users/cerdep/Documents/" (22011 49 0 0) "xsdtohaskell.hs" "www.zlib.net_crc_v3.pdf" "VPN Tracker 6.x Player - Dan Plubell.dmg" "Thumbs.db:encryptable" "Thumbs.db" "text_0.txt" "test.tidal" "tacklingTheAwkwardSquad.pdf" "SourCreamChocolateCake.docx" "Software Engineer Interview Plan.pptx" "RoyalsTickets.pdf" "RoyalsAstrosTickets.pdf" "RDC Connections/" "pyfaFits.html" "Processing.app/" "processing-2.2.1-macosx.zip" "Processing/" "PizzaOvenTrailer.jpg" "PinkNoiseTest/" "patestpinknoise/" "Oven-trailers.doc" "orion/" "OpenGL/" "opencl/" "OctoberJourney2014.pdf" "Notational_Velocity_2_0b5.zip" "Notational Velocity.app/" "My Notes/" "MumbleAutomaticCertificateBackup.p12" "mp3/" "MightyText-v2.18.dmg" "Microsoft User Data/" "MapreduceExamples.txt" "MalcolmWallaceEmal.txt" "MacApps/" "local.repository/" "learnyouahaskell.pdf" "learn-haskell/" "LeadershipExpectations.docx" "KrisTicketReceipt.pdf" "keplerworkspace/" "KDKBWallet.wlt" "KatieStemmy.docx" "KatieISP.pdf" "InclusionConnectionsSignupSheet.xlsx" "iCopyBot-Setup.dmg" "iBackupBot-Setup.dmg" "hearts.docx" "Health Assessment Receipt.pdf" "haskell-workspace-old/" "haskell/" "Gift Certificate.pdf" "FileZilla_3.9.0.6_macosx-x86.app.tar.bz2" "File Vault 2 – Basics.pdf" "Evernote_RELEASE_6.0.16_451861.dmg" "euler/" "erlang/" "EpochBus.jpeg" "Empty Microsoft User Data/" "eclipseKepler/" "eclipseHaskell/" "eclipse/" "Dirt/" "dcm4chee-2.18.1-src.zip" "dcm4chee-2.18.1-src/" "Dan2014w2.pdf" "csoundtest.csd-000.wav" "csoundtest.csd" "cprogs/" "concurrent-haskell.ps.gz" "concurrent-haskell.ps" "coincidence-philips-run1.pcd" "coincidence-ge-run1.pcd" "clojure-workspace/" "chrisdone-emacs/" "ccow_overview_2001.doc" "CCOW v1.6 PDF Version.zip" "CCOW v1.6 PDF Version/" "CategoryTheoryForScientists.pdf" "BobbyTest/" "backtoyouKansasJan2014W.pdf" "Avery5195Template.doc" "asl-test/" "aeonworkspace/" "6761-1b-sockets.ppt" "2014 Healthe Options Component Plan and Summary Plan Description_V4.pdf" "1371 Communication Protocol.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/" (21772 26501 0 0) "Shared/" "cerdep/" ".localized" "../" "./")
+
+ ("/Users/cerdep/" (22012 8072 0 0) "Xsdtohaskell.hs" "well-ask-them-for-estimates[5].jpg" "Users/" "Thumbs.db:encryptable" "Thumbs.db" "TestFlycheck.hs" "TestCmdArgs.hs~" "TestCmdArgs.hs" "test.hs" "stack-ide/" "sqldeveloper/" "sketch_150722a/" "Public/" "Pictures/" "Philips Avalon FM50-FetaLink Hardware ePro Req.docx" "output.xlsx" "output.csv" "nixclone/" "Neoventa-FetaLink Hardware ePro Req.docx" "nano.save" "Music/" "Movies/" "mbox" "Main.hs" "Library/" "lib/" "jagexcache/" "jagexappletviewer.preferences" "jagex_cl_runescape_LIVE.dat" "jad" "IdeaProjects/" "ibusexclusions.txt" "heat.settings" "heat.log" "grid.txt" "Google Drive/" "fittings/" "find_user" "fetalink-plus-hprof/" "export.csv" "exercism/" "Example.hs~" "Example.hs" "Euler-Projects/" "emacs.d.bak/" "emacs.d-jhenahan/" "emacs-haskell-config/" "eclipse-luna/" "Dropbox/" "Downloads/" "Documents/" "doc/" "Development/" "Desktop/" "default.pdf" "dead.letter" "cuda-workspace/" "CTX.DAT" "crawler/" "chrisdone-emacs/" "ccl-asl/" "Cask" "Campfirejpeg.jpeg" "BLRObligations.xlsx" "Applications/" "AndroidStudioProjects/" ".zshrc" ".zlogin" ".viminfo" ".Trash/" ".subversion/" ".stack/" ".ssh/" ".sqlite_history" ".sqldeveloper/" ".sonic-pi/" ".rvm/" ".pyfa/" ".putty/" ".profile" ".npm/" ".nix-profile/" ".nix-defexpr/" ".nix-channels" ".nbprofiler/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".leksah-0.14/" ".leksah-0.13/" ".leksah-0.12/" ".lein/" ".jagex_cache_32/" ".idm/" ".idlerc/" ".ideah/" ".gradle/" ".gitconfig" ".ghc/" ".gem/" ".filezilla/" ".exercism.json" ".emacs.d.minimal/" ".emacs.d.el_get/" ".emacs.d.chris-done/" ".emacs.d-emacs-haskell-config/" ".emacs.d-b4-cask/" ".emacs.d/" ".eclipse/" ".DS_Store" ".dropbox/" ".darcs/" ".cups/" ".config/" ".citrix/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".bashrc" ".bash_profile.ghc.orig" ".bash_profile" ".bash_login" ".bash_history" ".atom/" ".astah/" ".anyconnect" ".android/" ".account" "#TestMain.hs#" "#*message*-20150522-101536#" "../" "./")
+
+ ("/Users/cerdep/emacs-haskell-config/" (22012 8073 0 0) "README.md" "packages/" "init.el" "config/" ".gitmodules" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
