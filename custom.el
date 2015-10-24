@@ -100,8 +100,7 @@
       (diminish 'eldoc-mode "")
       (turn-on-haskell-decl-scan)
       (setq evil-auto-indent nil))
-      (setq haskell-font-lock-symbols 'unicode)
-      
+    (setq haskell-font-lock-symbols 'unicode)      
     (setq haskell-literate-default 'tex)
     (setq haskell-stylish-on-save t)
     (setq haskell-tags-on-save t)
@@ -111,8 +110,16 @@
     (setq haskell-process-type (quote auto))
     ;;    (setq haskell-process-type (quote cabal-repl))
     (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
-    (add-hook 'haskell-mode-hook 'my-haskell-hook)))
-
+    (add-hook 'haskell-mode-hook 'my-haskell-hook)
+    (defun hc-ac-haskell-candidates (prefix)
+      (let ((cs (haskell-process-get-repl-completions (haskell-process)prefix)))
+	(remove-if (lambda (c) (string= "" c)) cs)))
+    (ac-define-source haskell
+      '((candiates . (hc-ac-haskell-candidates ac-prefix))))
+    (defun hc-haskell-hook()
+      (add-to-list 'ac-sources 'ac-source-haskell))
+    (add-hook 'haskell-mode-hook 'hc-haskell-hook)))
+		 
 (req-package flycheck-haskell
     :config (add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
