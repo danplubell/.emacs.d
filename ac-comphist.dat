@@ -1,120 +1,120 @@
-((("hClose" .
-   [1 0 0 0 0 0])
-  ("TokenOp" .
-   [1 0 0 0 0 0 0])
-  ("TokenNumber" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("RightParen" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("LeftParen" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Paren" .
-   [1 0 0 0 0])
-  ("TokenParen" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("Token" .
-   [1 0 0 0 0])
-  ("emitTokens" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("hPutStrLn" .
-   [4 0 0 0 0 1 0 0 0])
-  ("mappend" .
-   [3 0 0 0 0 0 0])
-  ("foldl" .
-   [3 0 0 0 0])
-  ("handle" .
-   [3 0 0 0 0 0])
-  ("line" .
-   [2 0 0 0])
-  ("input" .
-   [11 0 0 0 0])
-  ("files" .
-   [2 0 0 0 0])
-  ("stdin" .
-   [1 0 0 0 0])
-  ("hinp" .
-   [3 0 0 0])
-  ("flgs" .
-   [1 0 0 0])
-  ("emitInstructions" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("generate" .
-   [2 0 0 0 0 0 0 0])
-  ("parse" .
-   [5 0 0 0 0])
-  ("tokenize" .
-   [8 0 0 0 0 0 0 0])
-  ("hGetContents" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("TokenizeOnly" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("hPutStr" .
-   [1 0 0 0 0 0 0])
-  ("stdout" .
-   [5 0 0 0 0 0])
-  ("hout" .
-   [9 0 0 0])
-  ("openFile" .
+((("hc-haskell-hook" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("haskell-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
    [1 0 0 0 0 0 0 0])
-  ("ParseOnly" .
-   [0 0 0 0 0 1 0 0 0])
-  ("hPrint" .
-   [5 0 0 0 0 0])
-  ("takeWhile" .
-   [1 0 0 0 0 0 0 0 0])
-  ("not" .
-   [1 0 0])
-  ("null" .
-   [1 0 0 0])
-  ("lines" .
-   [1 0 0 0 0])
-  ("<$>" .
-   [1 0 0])
-  ("printTree" .
-   [4 0 0 0 0 0 0 0 0])
-  ("level" .
-   [3 0 0 0 0])
-  ("nextPad" .
-   [8 0 0 0 0 0 0])
-  ("traverseChildren" .
-   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("Tree" .
-   [4 0 0 0])
-  ("strl'" .
-   [3 0 0 0 0])
-  ("defun" .
-   [2 0 0 0 0])
-  ("let" .
-   [1 0 0])
-  ("haskell-process-get" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process-get-repl-completions" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("prefix" .
+  ("ac-sources" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("ac-prefix" .
+   [0 0 0 0 0 0 0 0 1])
+  ("hc-ac-haskell-candidates" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("haskell" .
+   [1 0 0 0 0 0 0])
+  ("ac-define-source" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("lambda" .
    [1 0 0 0 0 0])
   ("remove-if" .
    [1 0 0 0 0 0 0 0 0])
-  ("lambda" .
+  ("prefix" .
    [1 0 0 0 0 0])
-  ("string" .
-   [1 0 0 0 0 0])
-  ("ac-define-source" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell" .
-   [1 0 0 0 0 0 0])
-  ("hc-ac-haskell-candidates" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-prefix" .
-   [0 0 0 0 0 0 0 0 1])
-  ("add-to-list" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-sources" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
+  ("haskell-process" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-get-repl-completions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-get" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("let" .
+   [1 0 0])
+  ("defun" .
+   [2 0 0 0 0])
+  ("strl'" .
+   [3 0 0 0 0])
+  ("Tree" .
+   [4 0 0 0])
+  ("traverseChildren" .
+   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("nextPad" .
+   [8 0 0 0 0 0 0])
+  ("level" .
+   [3 0 0 0 0])
+  ("printTree" .
+   [4 0 0 0 0 0 0 0 0])
+  ("<$>" .
+   [1 0 0])
+  ("lines" .
+   [1 0 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("not" .
+   [1 0 0])
+  ("takeWhile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("hPrint" .
+   [5 0 0 0 0 0])
+  ("ParseOnly" .
+   [0 0 0 0 0 1 0 0 0])
+  ("openFile" .
    [1 0 0 0 0 0 0 0])
-  ("haskell-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("hc-haskell-hook" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])))
+  ("hout" .
+   [9 0 0 0])
+  ("stdout" .
+   [5 0 0 0 0 0])
+  ("hPutStr" .
+   [1 0 0 0 0 0 0])
+  ("TokenizeOnly" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("hGetContents" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("tokenize" .
+   [8 0 0 0 0 0 0 0])
+  ("parse" .
+   [5 0 0 0 0])
+  ("generate" .
+   [2 0 0 0 0 0 0 0])
+  ("emitInstructions" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("flgs" .
+   [1 0 0 0])
+  ("hinp" .
+   [3 0 0 0])
+  ("stdin" .
+   [1 0 0 0 0])
+  ("files" .
+   [2 0 0 0 0])
+  ("input" .
+   [11 0 0 0 0])
+  ("line" .
+   [2 0 0 0])
+  ("handle" .
+   [3 0 0 0 0 0])
+  ("foldl" .
+   [3 0 0 0 0])
+  ("mappend" .
+   [3 0 0 0 0 0 0])
+  ("hPutStrLn" .
+   [4 0 0 0 0 1 0 0 0])
+  ("emitTokens" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Token" .
+   [1 0 0 0 0])
+  ("TokenParen" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Paren" .
+   [1 0 0 0 0])
+  ("LeftParen" .
+   [1 0 0 0 0 0 0 0 0])
+  ("RightParen" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("TokenNumber" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("TokenOp" .
+   [1 0 0 0 0 0 0])
+  ("hClose" .
+   [1 0 0 0 0 0])))
