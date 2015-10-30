@@ -35,6 +35,17 @@
 (req-package server
              :diminish (server-buffer-clients . ""))
 
+(req-package smartparens-config
+  :ensure smartparens
+  :diminish (smartparens-mode . "()")
+  :init (smartparens-global-mode t))
+
+(req-package rainbow-delimiters
+  :config
+  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
+
+(req-package powerline)
+
 (req-package auto-complete-config
   :ensure auto-complete
   :init
@@ -123,16 +134,16 @@
 (req-package flycheck-haskell
     :config (add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
-;;(req-package shm
-;;  :require haskell-mode
-;;  :commands structured-haskell-mode
-;;  :init (add-hook 'haskell-mode-hook
-;;		  'structured-haskell-mode))
-;;  :config
-;;  (eval-after-load 'shm
-;;   '(progn
-;;     (set-face-background 'shm-current-face "#eee8d5")
-;;     (set-face-background 'shm-quarantine-face "lemonchiffon")))
+(req-package shm
+  :require haskell-mode
+  :commands structured-haskell-mode
+  :init (add-hook 'haskell-mode-hook
+		  'structured-haskell-mode))
+  :config
+  (eval-after-load 'shm
+   '(progn
+     (set-face-background 'shm-current-face "#eee8d5")
+     (set-face-background 'shm-quarantine-face "lemonchiffon")))
 
 ;;(req-package ghc
 ;;  :init (add-hook 'haskell-mode-hook (lambda () (ghc-init))))
@@ -163,6 +174,11 @@
 (req-package stack-mode)
 
 (req-package hindent)
+
+(req-package neotree
+  :config
+  (progn (global-set-key [f8] 'neotree-toggle))
+)
 
 (fset 'display-startup-echo-area-message #'ignore)
 (fset 'yes-or-no-p #'y-or-n-p)

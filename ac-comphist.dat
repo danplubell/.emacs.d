@@ -1,4 +1,52 @@
-((("hc-haskell-hook" .
+((("Show" .
+   [12 0 0 0])
+  ("_unit" .
+   [1 0 0 0 0])
+  ("_code" .
+   [1 0 0 0 0])
+  ("_system" .
+   [1 0 0 0 0 0 0])
+  ("Quantity" .
+   [1 0 0 0 1 1 0 0])
+  ("CodableConcept" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("makeLenses" .
+   [10 0 0 0 0 0 0 1 0 0])
+  ("ByteString" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("Attachment" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("TemplateHaskell" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("isContinue" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("isValid" .
+   [2 0 0 0 0 0 0])
+  ("validated" .
+   [4 0 0 0 0 0 0 0 0])
+  ("Tokenizer" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Parser" .
+   [1 0 0 0 0 0])
+  ("Generator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Evaluator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("evaluateCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("EmptyState" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("evaluate" .
+   [1 0 0 0 0 0 0 0])
+  ("evaluateCodes" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("resolveCode" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("loadCodes" .
+   [3 0 0 0 1 0 0 0 0])
+  ("Code" .
+   [4 0 0 0])
+  ("hc-haskell-hook" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
   ("haskell-mode-hook" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
@@ -71,7 +119,7 @@
   ("TokenizeOnly" .
    [0 0 0 0 0 1 0 0 0 0 0 0])
   ("hGetContents" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
+   [2 0 0 0 0 0 0 0 0 0 0 0])
   ("tokenize" .
    [8 0 0 0 0 0 0 0])
   ("parse" .
@@ -83,13 +131,13 @@
   ("flgs" .
    [1 0 0 0])
   ("hinp" .
-   [3 0 0 0])
+   [4 0 0 0])
   ("stdin" .
    [1 0 0 0 0])
   ("files" .
    [2 0 0 0 0])
   ("input" .
-   [11 0 0 0 0])
+   [12 0 0 0 0])
   ("line" .
    [2 0 0 0])
   ("handle" .
@@ -117,4 +165,106 @@
   ("TokenOp" .
    [1 0 0 0 0 0 0])
   ("hClose" .
-   [1 0 0 0 0 0])))
+   [1 0 0 0 0 0])
+  ("readCode" .
+   [2 0 0 0 0 0 0 0])
+  ("EvalState" .
+   [1 0 0 0 0 0 0 0 0])
+  ("empty" .
+   [2 0 0 0 0])
+  ("takeWhileInclusive" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("main" .
+   [2 0 0 0])
+  ("SomeData" .
+   [10 0 0 0 0 0 0 0])
+  ("Unvalidated" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("getData" .
+   [2 0 0 0 0 0 0])
+  ("Validated" .
+   [4 0 0 0 0 0 0 0 0])
+  ("sanitise" .
+   [3 0 0 0 0 0 0 0])
+  ("Sanitise" .
+   [1 0 0 0 0 0 0 0])
+  ("str" .
+   [5 0 0])
+  ("validate" .
+   [1 0 0 0 0 0 0 0])
+  ("InstantPt" .
+   [2 0 0 0 0 0 0 0 0])
+  ("IntegerPt" .
+   [5 0 0 0 0 0 0 0 0])
+  ("StringPt" .
+   [26 0 0 0 0 0 0 0])
+  ("DecimalPt" .
+   [2 0 0 0 1 2 1 4 0])
+  ("UriPt" .
+   [6 0 0 0 0])
+  ("Base64BinaryPt" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Data" .
+   [7 0 0 0])
+  ("DatePt" .
+   [1 0 0 0 0 0])
+  ("UTCTime" .
+   [3 0 0 0 0 0 0])
+  ("DateTimePt" .
+   [1 0 0 0 0 2 0 0 1 0])
+  ("Time" .
+   [1 0 0 0])
+  ("CodePt" .
+   [11 0 0 0 0 3])
+  ("OidPt" .
+   [1 0 0 0 0])
+  ("IdPt" .
+   [1 0 0 0])
+  ("UnsignedIntPt" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("PositiveIntPt" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0])
+  ("FHIR" .
+   [1 0 0 0])
+  ("Types" .
+   [1 0 0 0 0])
+  ("Valid" .
+   [63 0 0 0 0])
+  ("Coding" .
+   [2 0 0 0 0 0])
+  ("Range" .
+   [3 0 0 0 0])
+  ("SimpleQuantity" .
+   [0 0 0 0 1 0 1 0 0 0 1 0 0 0])
+  ("Period" .
+   [6 0 0 0 0 0])
+  ("SampledData" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Identifier" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Reference" .
+   [2 0 0 0 0 0 0 0 0])
+  ("HumanName" .
+   [1 0 0 0 0 0 0 0 0])
+  ("_period" .
+   [1 0 0 0 0 0 0])
+  ("Address" .
+   [1 0 0 0 0 0 0])
+  ("ContactPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Timing" .
+   [1 0 0 0 0 0])
+  ("TimingRepeat" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("_trDuration" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("_trPeriod" .
+   [2 0 0 0 0 0 0 0 0])
+  ("req-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  (":config" .
+   [1 0 0 0 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("global-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])))
