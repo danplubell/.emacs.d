@@ -1,270 +1,438 @@
-((("Show" .
-   [12 0 0 0])
-  ("_unit" .
-   [1 0 0 0 0])
-  ("_code" .
-   [1 0 0 0 0])
-  ("_system" .
-   [1 0 0 0 0 0 0])
-  ("Quantity" .
-   [1 0 0 0 1 1 0 0])
-  ("CodableConcept" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("makeLenses" .
-   [10 0 0 0 0 0 0 1 0 0])
-  ("ByteString" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("Attachment" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("TemplateHaskell" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("isContinue" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("isValid" .
-   [2 0 0 0 0 0 0])
-  ("validated" .
-   [4 0 0 0 0 0 0 0 0])
-  ("Tokenizer" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Parser" .
-   [1 0 0 0 0 0])
-  ("Generator" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Evaluator" .
-   [1 0 0 0 0 0 0 0 0])
-  ("evaluateCode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("EmptyState" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("evaluate" .
-   [1 0 0 0 0 0 0 0])
-  ("evaluateCodes" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("resolveCode" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("loadCodes" .
-   [3 0 0 0 1 0 0 0 0])
-  ("Code" .
-   [4 0 0 0])
-  ("hc-haskell-hook" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("haskell-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [1 0 0 0 0 0 0 0])
-  ("ac-sources" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("add-to-list" .
+((("req-package" .
    [1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-prefix" .
-   [0 0 0 0 0 0 0 0 1])
-  ("hc-ac-haskell-candidates" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("haskell" .
-   [1 0 0 0 0 0 0])
-  ("ac-define-source" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("string" .
-   [1 0 0 0 0 0])
-  ("lambda" .
-   [1 0 0 0 0 0])
-  ("remove-if" .
-   [1 0 0 0 0 0 0 0 0])
-  ("prefix" .
-   [1 0 0 0 0 0])
-  ("haskell-process" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process-get-repl-completions" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process-get" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("let" .
-   [1 0 0])
-  ("defun" .
-   [2 0 0 0 0])
-  ("strl'" .
-   [3 0 0 0 0])
-  ("Tree" .
-   [4 0 0 0])
-  ("traverseChildren" .
-   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("nextPad" .
-   [8 0 0 0 0 0 0])
-  ("level" .
-   [3 0 0 0 0])
-  ("printTree" .
-   [4 0 0 0 0 0 0 0 0])
-  ("<$>" .
-   [1 0 0])
-  ("lines" .
+  ("hostentries" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("showHostEntry" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dispHostEntry" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("throw" .
    [1 0 0 0 0])
-  ("null" .
-   [1 0 0 0])
-  ("not" .
-   [1 0 0])
-  ("takeWhile" .
-   [1 0 0 0 0 0 0 0 0])
-  ("hPrint" .
-   [5 0 0 0 0 0])
-  ("ParseOnly" .
-   [0 0 0 0 0 1 0 0 0])
-  ("openFile" .
-   [1 0 0 0 0 0 0 0])
-  ("hout" .
-   [9 0 0 0])
-  ("stdout" .
-   [5 0 0 0 0 0])
-  ("hPutStr" .
+  ("Exception" .
+   [3 0 0 0 0 0 0 0 0])
+  ("putitback" .
+   [5 0 0 0 0 0 0 0 0])
+  ("throwIO" .
    [1 0 0 0 0 0 0])
-  ("TokenizeOnly" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("hGetContents" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("tokenize" .
-   [8 0 0 0 0 0 0 0])
-  ("parse" .
-   [5 0 0 0 0])
-  ("generate" .
-   [2 0 0 0 0 0 0 0])
-  ("emitInstructions" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("flgs" .
-   [1 0 0 0])
-  ("hinp" .
-   [4 0 0 0])
-  ("stdin" .
+  ("catch" .
    [1 0 0 0 0])
-  ("files" .
-   [2 0 0 0 0])
-  ("input" .
-   [12 0 0 0 0])
-  ("line" .
-   [2 0 0 0])
-  ("handle" .
+  ("recover" .
+   [2 0 0 0 0 0 0])
+  ("SomeException" .
+   [4 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("restore" .
+   [5 0 0 0 0 0 0])
+  ("problem" .
+   [1 0 0 0 0 0 0])
+  ("Async'" .
    [3 0 0 0 0 0])
-  ("foldl" .
-   [3 0 0 0 0])
-  ("mappend" .
-   [3 0 0 0 0 0 0])
-  ("hPutStrLn" .
-   [4 0 0 0 0 1 0 0 0])
-  ("emitTokens" .
+  ("var" .
+   [2 0 0])
+  ("waitCatch'" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("Token" .
+  ("Async" .
+   [3 0 0 0 0])
+  ("waitCatch" .
+   [2 0 0 0 0 0 0 0 0])
+  ("sites" .
+   [1 0 0 0 0])
+  ("timeToDownload" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("async" .
+   [1 0 0 0 0])
+  ("mapM" .
+   [1 0 0 0])
+  ("newtype" .
+   [0 0 0 1 0 0 0])
+  ("putMVar" .
+   [10 0 0 0 0 0 0])
+  ("takeMVar" .
+   [5 0 0 0 0 0 0 0])
+  ("book" .
+   [4 0 0 0])
+  ("number" .
+   [1 0 0 0 0 0])
+  ("insert" .
+   [3 0 0 0 0 0])
+  ("PhoneBook" .
+   [2 0 0 0 0 0 0 0 0])
+  ("PhoneBookState" .
+   [8 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("PhoneNumber" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("Name" .
+   [3 0 0 0])
+  ("Control" .
+   [5 0 0 0 0 0 0])
+  ("setReminder" .
+   [3 0 0 2 0 0 0 0 0 0 0])
+  ("decodeOracleEg" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("Start" .
+   [3 0 0 0 0])
+  ("unpack" .
+   [8 0 0 0 0 0])
+  ("encodeBindReq" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("LdapMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("ToAsn1" .
+   [2 0 0 0 0 0])
+  ("Client" .
+   [1 0 0 0 0 0])
+  ("ByteString" .
+   [9 0 0 0 0 0 0 0 0 0])
+  ("Type" .
+   [5 0 0 0])
+  ("encodeIt" .
+   [21 0 0 0 0 0 1 1])
+  ("ASN1" .
+   [8 0 0 0])
+  ("ASNT" .
+   [11 0 0 0])
+  ("Asn1" .
+   [3 0 0 0])
+  ("Data" .
+   [15 0 0 0])
+  ("args" .
+   [4 0 0 0])
+  ("getArgs" .
+   [1 0 0 0 0 0 0])
+  ("transport" .
+   [6 0 0 0 0 0 0 0 0])
+  ("defaultTCPParameters" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("createTransport" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("open" .
+   [2 0 0 0])
+  ("PortNumber" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("Transport" .
+   [1 0 0 0 0 0 0 0 1])
+  ("LdapError" .
+   [3 0 0 0 0 0 0 0 0])
+  ("Port" .
+   [5 0 0 0])
+  ("HostName" .
+   [6 0 0 0 0 0 0 0])
+  ("readCode" .
+   [2 0 0 0 0 0 0 0])
+  ("hClose" .
+   [1 0 0 0 0 0])
+  ("TokenOp" .
+   [1 0 0 0 0 0 0])
+  ("TokenNumber" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("RightParen" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("LeftParen" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Paren" .
    [1 0 0 0 0])
   ("TokenParen" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("Paren" .
+  ("Token" .
    [1 0 0 0 0])
-  ("LeftParen" .
-   [1 0 0 0 0 0 0 0 0])
-  ("RightParen" .
+  ("emitTokens" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("TokenNumber" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("TokenOp" .
-   [1 0 0 0 0 0 0])
-  ("hClose" .
-   [1 0 0 0 0 0])
-  ("readCode" .
-   [2 0 0 0 0 0 0 0])
-  ("EvalState" .
-   [1 0 0 0 0 0 0 0 0])
-  ("empty" .
-   [2 0 0 0 0])
-  ("takeWhileInclusive" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("main" .
-   [2 0 0 0])
-  ("SomeData" .
-   [10 0 0 0 0 0 0 0])
-  ("Unvalidated" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("getData" .
-   [2 0 0 0 0 0 0])
-  ("Validated" .
-   [4 0 0 0 0 0 0 0 0])
-  ("sanitise" .
-   [3 0 0 0 0 0 0 0])
-  ("Sanitise" .
-   [1 0 0 0 0 0 0 0])
-  ("str" .
-   [5 0 0])
-  ("validate" .
-   [1 0 0 0 0 0 0 0])
-  ("InstantPt" .
-   [2 0 0 0 0 0 0 0 0])
-  ("IntegerPt" .
-   [5 0 0 0 0 0 0 0 0])
-  ("StringPt" .
-   [26 0 0 0 0 0 0 0])
-  ("DecimalPt" .
-   [2 0 0 0 1 2 1 4 0])
-  ("UriPt" .
-   [6 0 0 0 0])
-  ("Base64BinaryPt" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("Data" .
-   [7 0 0 0])
-  ("DatePt" .
-   [1 0 0 0 0 0])
-  ("UTCTime" .
+  ("hPutStrLn" .
+   [4 0 0 0 0 1 0 0 0])
+  ("mappend" .
    [3 0 0 0 0 0 0])
-  ("DateTimePt" .
-   [1 0 0 0 0 2 0 0 1 0])
-  ("Time" .
-   [1 0 0 0])
-  ("CodePt" .
-   [11 0 0 0 0 3])
-  ("OidPt" .
+  ("foldl" .
+   [3 0 0 0 0])
+  ("handle" .
+   [3 0 0 0 0 0])
+  ("line" .
+   [2 0 0 0])
+  ("input" .
+   [11 0 0 0 0])
+  ("files" .
+   [2 0 0 0 0])
+  ("stdin" .
    [1 0 0 0 0])
-  ("IdPt" .
+  ("hinp" .
+   [3 0 0 0])
+  ("flgs" .
    [1 0 0 0])
-  ("UnsignedIntPt" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("PositiveIntPt" .
-   [0 0 0 0 0 0 0 1 0 0 1 0 0])
-  ("FHIR" .
+  ("emitInstructions" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("generate" .
+   [2 0 0 0 0 0 0 0])
+  ("parse" .
+   [5 0 0 0 0])
+  ("tokenize" .
+   [8 0 0 0 0 0 0 0])
+  ("hGetContents" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("TokenizeOnly" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("hPutStr" .
+   [1 0 0 0 0 0 0])
+  ("stdout" .
+   [5 0 0 0 0 0])
+  ("hout" .
+   [9 0 0 0])
+  ("openFile" .
+   [1 0 0 0 0 0 0 0])
+  ("ParseOnly" .
+   [0 0 0 0 0 1 0 0 0])
+  ("hPrint" .
+   [5 0 0 0 0 0])
+  ("takeWhile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("not" .
+   [1 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("lines" .
+   [1 0 0 0 0])
+  ("<$>" .
+   [1 0 0])
+  ("printTree" .
+   [4 0 0 0 0 0 0 0 0])
+  ("level" .
+   [3 0 0 0 0])
+  ("nextPad" .
+   [8 0 0 0 0 0 0])
+  ("traverseChildren" .
+   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("Tree" .
+   [4 0 0 0])
+  ("strl'" .
+   [3 0 0 0 0])
+  ("defun" .
+   [2 0 0 0 0])
+  ("let" .
+   [4 0 0])
+  ("haskell-process-get" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-get-repl-completions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("prefix" .
+   [1 0 0 0 0 0])
+  ("remove-if" .
+   [1 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [1 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("ac-define-source" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell" .
+   [1 0 0 0 0 0 0])
+  ("hc-ac-haskell-candidates" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("ac-prefix" .
+   [0 0 0 0 0 0 0 0 1])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("ac-sources" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("haskell-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hc-haskell-hook" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("Code" .
+   [4 0 0 0])
+  ("loadCodes" .
+   [3 0 0 0 1 0 0 0 0])
+  ("resolveCode" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("evaluateCodes" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("evaluate" .
+   [1 0 0 0 0 0 0 0])
+  ("EmptyState" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("evaluateCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Evaluator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Generator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Parser" .
+   [1 0 0 0 0 0])
+  ("Tokenizer" .
+   [1 0 0 0 0 0 0 0 0])
+  ("serverAddr" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("endpoint" .
+   [4 0 0 0 0 0 0 0])
+  ("error" .
+   [0 0 0 1 0])
+  ("newEndPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Error" .
+   [1 0 0 0 0])
+  ("Conn" .
+   [8 0 0 0])
+  ("Ldap" .
+   [3 0 0 0])
+  ("connParams" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("Connection" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("ConnectionParams" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("conn" .
+   [2 0 0 0])
+  ("bind" .
    [1 0 0 0])
   ("Types" .
    [1 0 0 0 0])
-  ("Valid" .
-   [63 0 0 0 0])
-  ("Coding" .
-   [2 0 0 0 0 0])
-  ("Range" .
-   [3 0 0 0 0])
-  ("SimpleQuantity" .
-   [0 0 0 0 1 0 1 0 0 0 1 0 0 0])
-  ("Period" .
-   [6 0 0 0 0 0])
-  ("SampledData" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("Identifier" .
+  ("LDAPMessage" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("messageID" .
+   [1 0 0 0 0 0 0 1 0])
+  ("Protocolop" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("Reference" .
-   [2 0 0 0 0 0 0 0 0])
-  ("HumanName" .
-   [1 0 0 0 0 0 0 0 0])
-  ("_period" .
+  ("BindRequest" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("Simple" .
+   [6 0 0 0 0 0])
+  ("protocolOp" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("ProtocolOp" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Controls" .
+   [3 0 0 0 0 0 0 0])
+  ("Show" .
+   [2 0 0 0])
+  ("controls" .
+   [1 0 0 0 0 0 0 0])
+  ("toASN1" .
+   [5 0 0 1 0 0])
+  ("IntVal" .
+   [2 0 0 0 0 0])
+  ("ASN1Object" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("fromASN1" .
+   [1 0 0 0 0 0 0 0])
+  ("version" .
    [1 0 0 0 0 0 0])
-  ("Address" .
-   [1 0 0 0 0 0 0])
-  ("ContactPoint" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("Timing" .
-   [1 0 0 0 0 0])
-  ("TimingRepeat" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("_trDuration" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("_trPeriod" .
-   [2 0 0 0 0 0 0 0 0])
-  ("req-package" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  (":config" .
-   [1 0 0 0 0 0 0])
-  ("progn" .
+  ("name" .
+   [3 0 0 0])
+  ("authentication" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("BSC8" .
+   [7 0 0 0])
+  ("Sequence" .
+   [6 0 0 0 0 0 0 0])
+  ("main'" .
    [1 0 0 0 0])
-  ("global-set-key" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("main" .
+   [19 0 0 0])
+  ("bindr" .
+   [2 0 0 0 0])
+  ("bindreq" .
+   [1 0 0 0 0 0 0])
+  ("Char8" .
+   [1 0 0 0 0])
+  ("length" .
+   [9 0 0 0 0 0])
+  ("Other" .
+   [3 0 0 0 0])
+  ("Application" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("empty" .
+   [1 0 0 0 0])
+  ("e" .
+   [1])
+  ("End" .
+   [2 0 0])
+  ("BinaryEncoding" .
+   [0 0 0 0 1 0 0 0 1 0 0 0 0 0])
+  ("toasn" .
+   [3 0 0 0 0])
+  ("Container" .
+   [2 0 0 0 0 0 0 0 0])
+  ("pack" .
+   [3 0 0 0])
+  ("BSL" .
+   [1 0 0])
+  ("decodeit" .
+   [1 0 0 0 0 0 0 0])
+  ("OctetString" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("loop" .
+   [3 0 0 0])
+  ("forkIO" .
+   [1 0 0 0 0 0])
+  ("initLogger" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("logMessage" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("logStop" .
+   [1 0 0 0 0 0 0])
+  ("Concurrent" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Item" .
+   [4 0 0 0])
+  ("Stream" .
+   [4 0 0 0 0 1])
+  ("Chan" .
+   [15 0 0 0])
+  ("MVar" .
+   [6 0 0 0])
+  ("newChan" .
+   [2 0 0 0 0 0 0])
+  ("hole" .
+   [5 0 0 0])
+  ("readVar" .
+   [5 0 0 0 0 0 0])
+  ("newMVar" .
+   [2 0 0 0 0 0 0])
+  ("write" .
+   [2 0 0 0 0])
+  ("writeVar" .
+   [8 0 0 0 0 0 0 0])
+  ("writeChan" .
+   [2 0 0 0 0 0 0 0 0])
+  ("newEmptyMVar" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("oldHole" .
+   [1 0 0 0 0 0 0])
+  ("newHole" .
+   [2 0 0 0 0 0 0])
+  ("readChan" .
+   [1 0 0 0 0 0 0 0])
+  ("dupChan" .
+   [1 0 0 0 0 0 0])
+  ("hold" .
+   [1 0 0 0])
+  ("readMVar" .
+   [2 0 0 0 0 0 0 0])
+  ("newReadVar" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("getURL" .
+   [2 0 0 0 0 0])
+  ("hostname" .
+   [4 0 0 0 0 0 0 0])
+  ("addrInfoList" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("defaultHints" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("myHints" .
+   [2 0 0 0 0 0 0])
+  ("showit" .
+   [1 0 0 0 0 0])
+  ("addrAddress" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("addrFamily" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("dispip" .
+   [1 0 0 0 0 0])
+  ("formatHostAddresses" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hostFamily" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("hostAddress" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("load" .
+   [1 0 0 0])))

@@ -5,11 +5,12 @@
     (before theme-dont-propagate activate)
   (mapc #'disable-theme custom-enabled-themes))
 
-(req-package moe-theme)
+;;(req-package moe-theme)
 
-(req-package moe-theme-switcher
-    :require moe-theme)
+;;(req-package moe-theme-switcher
+;;    :require moe-theme)
 
+(req-package noctilux-theme)
 
 (req-package scroll-bar
   :config
@@ -183,6 +184,12 @@
 (fset 'display-startup-echo-area-message #'ignore)
 (fset 'yes-or-no-p #'y-or-n-p)
 
+(setq inhibit-startup-message t)
+(setq inhibit-startup-echo-area-message t)
+
+(setq initial-scratch-message
+      (concat "\nHello Dan. Today is: "
+	          (format-time-string "%A %d %B %Y at %T\n")))
 (req-package-finish)
 
 ;;; custom.el ends here
