@@ -1,6 +1,6 @@
 (source gnu)
 (source melpa)
-(source marmalade)
+(source marmalade http://marmalade.ferrier.me.uk)
 
 (depends-on "bind-key")
 (depends-on "cask")
