@@ -1,11 +1,131 @@
-((("req-package" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("hostentries" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("showHostEntry" .
+((("portNumber" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("port" .
+   [3 0 0 0])
+  ("chtMsg" .
+   [1 0 0 0 0 0])
+  ("lineMsg" .
+   [2 0 0 0 0 0 0])
+  ("bodyBytes" .
+   [1 0 0 0 0 0 0 0 0])
+  ("body" .
+   [2 0 0 0])
+  ("lenBytes" .
+   [1 0 0 0 0 0 0 0])
+  ("typBytes" .
+   [1 0 0 0 0 0 0 0])
+  ("msgLen" .
+   [1 0 0 0 0 0])
+  ("Shutdown" .
+   [1 0 0 0 0 0 0 0])
+  ("startReceiver" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("dispHostEntry" .
+  ("recvd" .
+   [3 0 0 0 0])
+  ("fromStrict" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("chatMsg'" .
+   [1 0 0 0 0 0 0 0])
+  ("msgBody" .
+   [6 0 0 0 0 0 0])
+  ("recvloop" .
+   [1 0 0 0 0 0 0 0])
+  ("chatMsg" .
+   [3 0 0 0 0 0 0])
+  ("mkMsg" .
+   [6 0 0 0 0])
+  ("sendMsg" .
+   [3 0 0 0 0 0 0])
+  ("PayLoadMsg" .
+   [4 0 0 1 0 0 0 4 0 0])
+  ("Binary" .
+   [1 0 0 0 0 0])
+  ("Generic" .
+   [1 0 0 0 0 0 0])
+  ("grtMsg" .
+   [2 0 0 1 0 0])
+  ("InvalidType" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("toMsgType" .
+   [4 0 0 0 0 0 0 0 0])
+  ("GreetResp" .
+   [2 0 0 0 0 0 0 0 0])
+  ("GreetReq" .
+   [5 0 0 0 0 0 0 0])
+  ("toTypeVal" .
+   [5 0 0 0 0 0 0 0 0])
+  ("Word8" .
+   [8 0 0 0 0])
+  ("MsgType" .
+   [3 0 0 0 0 0 0])
+  ("GreetMsg" .
+   [8 0 0 0 0 0 0 0])
+  ("mkPayLoadMsg" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Chat" .
+   [4 0 0 0])
+  ("ChatMsg" .
+   [4 0 0 0 0 0 0])
+  ("encode" .
+   [8 0 0 0 0 0])
+  ("toStrict" .
+   [7 0 0 1 0 0 0 0])
+  ("atomically" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("readFromQueue" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("writeTQueue" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("addToQueue" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("OverloadedStrings" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("recv" .
+   [1 0 0 0])
+  ("sendAll" .
+   [3 0 0 0 0 0 0])
+  ("sent" .
+   [1 0 0 0])
+  ("addrAddress" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("newaddr" .
+   [3 0 0 0 0 0 0])
+  ("SockAddrInet6" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("connect" .
+   [1 0 0 0 0 0 0])
+  ("addr" .
+   [6 0 0 0])
+  ("getAddrInfo" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("AF_INET6" .
+   [1 0 0 0 0 0 0 0])
+  ("addrInfo" .
+   [3 0 0 0 0 0 0 0])
+  ("protocol" .
+   [2 0 0 0 0 0 0 0])
+  ("getProtocolNumber" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("reader" .
+   [1 0 0 0 0 0])
+  ("System" .
+   [1 0 0 0 0 0])
+  ("runComm" .
+   [1 0 0 0 0 0 0])
+  ("SockAddr" .
+   [1 0 0 0 0 0 0 0])
+  ("runConn" .
+   [7 0 0 0 0 0 0])
+  ("accept" .
+   [2 0 0 0 0 0])
+  ("mainLoop" .
+   [9 0 0 0 1 0 0 0])
+  ("Socket" .
+   [8 0 0 0 0 0])
+  ("listen" .
+   [1 0 0 0 0 0])
+  ("sock" .
+   [32 0 0 0])
   ("throw" .
    [1 0 0 0 0])
   ("Exception" .
@@ -19,7 +139,7 @@
   ("recover" .
    [2 0 0 0 0 0 0])
   ("SomeException" .
-   [4 0 0 0 1 0 0 0 0 0 0 0 0])
+   [5 0 0 0 1 0 0 0 0 0 0 0 0])
   ("restore" .
    [5 0 0 0 0 0 0])
   ("problem" .
@@ -63,7 +183,7 @@
   ("Name" .
    [3 0 0 0])
   ("Control" .
-   [5 0 0 0 0 0 0])
+   [12 0 0 0 0 0 1])
   ("setReminder" .
    [3 0 0 2 0 0 0 0 0 0 0])
   ("decodeOracleEg" .
@@ -71,7 +191,7 @@
   ("Start" .
    [3 0 0 0 0])
   ("unpack" .
-   [8 0 0 0 0 0])
+   [15 0 0 0 0 0])
   ("encodeBindReq" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("LdapMessage" .
@@ -81,7 +201,7 @@
   ("Client" .
    [1 0 0 0 0 0])
   ("ByteString" .
-   [9 0 0 0 0 0 0 0 0 0])
+   [20 0 0 0 0 0 0 0 0 0])
   ("Type" .
    [5 0 0 0])
   ("encodeIt" .
@@ -93,9 +213,9 @@
   ("Asn1" .
    [3 0 0 0])
   ("Data" .
-   [15 0 0 0])
+   [20 0 0 0])
   ("args" .
-   [4 0 0 0])
+   [1 0 0 0])
   ("getArgs" .
    [1 0 0 0 0 0 0])
   ("transport" .
@@ -143,9 +263,9 @@
   ("foldl" .
    [3 0 0 0 0])
   ("handle" .
-   [3 0 0 0 0 0])
+   [4 0 0 0 0 0])
   ("line" .
-   [2 0 0 0])
+   [5 0 0 0])
   ("input" .
    [11 0 0 0 0])
   ("files" .
@@ -281,7 +401,7 @@
   ("ConnectionParams" .
    [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("conn" .
-   [2 0 0 0])
+   [7 0 0 0])
   ("bind" .
    [1 0 0 0])
   ("Types" .
@@ -303,7 +423,7 @@
   ("Controls" .
    [3 0 0 0 0 0 0 0])
   ("Show" .
-   [2 0 0 0])
+   [3 0 0 0])
   ("controls" .
    [1 0 0 0 0 0 0 0])
   ("toASN1" .
@@ -317,7 +437,7 @@
   ("version" .
    [1 0 0 0 0 0 0])
   ("name" .
-   [3 0 0 0])
+   [7 0 0 0])
   ("authentication" .
    [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
   ("BSC8" .
@@ -341,7 +461,7 @@
   ("Application" .
    [4 0 0 0 0 0 0 0 0 0 0])
   ("empty" .
-   [1 0 0 0 0])
+   [2 0 0 0 0])
   ("e" .
    [1])
   ("End" .
@@ -353,7 +473,7 @@
   ("Container" .
    [2 0 0 0 0 0 0 0 0])
   ("pack" .
-   [3 0 0 0])
+   [6 0 0 0])
   ("BSL" .
    [1 0 0])
   ("decodeit" .
@@ -361,9 +481,9 @@
   ("OctetString" .
    [1 0 0 0 0 0 0 0 0 0 0])
   ("loop" .
-   [3 0 0 0])
+   [5 0 0 0])
   ("forkIO" .
-   [1 0 0 0 0 0])
+   [2 0 0 0 0 0])
   ("initLogger" .
    [1 0 0 0 0 0 0 0 0 0])
   ("logMessage" .
@@ -371,11 +491,11 @@
   ("logStop" .
    [1 0 0 0 0 0 0])
   ("Concurrent" .
-   [2 0 0 0 0 0 0 0 0 0])
+   [6 0 0 0 0 1 0 0 0 0])
   ("Item" .
    [4 0 0 0])
   ("Stream" .
-   [4 0 0 0 0 1])
+   [5 0 0 0 0 1])
   ("Chan" .
    [15 0 0 0])
   ("MVar" .
@@ -412,27 +532,41 @@
    [1 0 0 0 0 0 0 0 0 0])
   ("getURL" .
    [2 0 0 0 0 0])
-  ("hostname" .
+  ("socket" .
+   [2 0 0 0 0 0])
+  ("TQueue" .
+   [7 0 0 0 0 0])
+  ("queue" .
+   [7 0 0 0 0])
+  ("MsgPayload" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Word" .
+   [1 0 0 0])
+  ("recvMsgFromQueue" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("decode" .
+   [5 0 0 0 0 0])
+  ("replicateM" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("readTQueue" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("readSome" .
    [4 0 0 0 0 0 0 0])
-  ("addrInfoList" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("defaultHints" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("myHints" .
+  ("bytes" .
+   [3 0 0 0 0])
+  ("addBufferToQueue" .
+   [2 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("nameMsg" .
+   [4 0 0 0 0 0 0])
+  ("receiver" .
+   [2 0 0 0 0 0 0 0])
+  ("killThread" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("msgType" .
+   [4 0 0 0 0 0 0])
+  ("msgRecv" .
    [2 0 0 0 0 0 0])
-  ("showit" .
-   [1 0 0 0 0 0])
-  ("addrAddress" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("addrFamily" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("dispip" .
-   [1 0 0 0 0 0])
-  ("formatHostAddresses" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("hostFamily" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("hostAddress" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("load" .
-   [1 0 0 0])))
+  ("nameResp" .
+   [1 0 0 0 0 0 0 0])
+  ("ipAddr" .
+   [1 0 0 0 0 0])))
