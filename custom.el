@@ -10,7 +10,13 @@
 ;;(req-package moe-theme-switcher
 ;;    :require moe-theme)
 
+(req-package exe-path-from-shell
+  :config
+  (when (memq window-system 'mac ns))
+    (exec-path-from-shell-initialize))
+
 (req-package noctilux-theme)
+;;(req-package zenburn-theme)
 
 (req-package scroll-bar
   :config
@@ -72,7 +78,12 @@
 (req-package flycheck-pos-tip
   :require flycheck
   :config
-  (setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+;;  (setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+;;  (setq flycheck-display-errors-function #'flycheck-display-error-messages-unless-error-list))
+  (if (memq window-system '(mac ns))
+      (setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages)
+    (setq flycheck-display-errors-function #'flycheck-display-error-messages))
+ )
 
 
 
@@ -106,15 +117,15 @@
       (setq mode-name " λ ")
       (turn-on-haskell-doc)
       (diminish 'haskell-doc-mode "")
-      (capitalized-words-mode)
-      (diminish 'capitalized-words-mode "")
+;;      (capitalized-words-mode)
+;;      (diminish 'capitalized-words-mode "")
       (turn-on-eldoc-mode)
       (diminish 'eldoc-mode "")
       (turn-on-haskell-decl-scan)
       (setq evil-auto-indent nil))
     (setq haskell-font-lock-symbols 'unicode)      
     (setq haskell-literate-default 'tex)
-    (setq haskell-stylish-on-save t)
+;;    (setq haskell-stylish-on-save t)
     (setq haskell-tags-on-save t)
     (setq haskell-process-log t)
     (setq haskell-process-load-or-reload-prompt t)
@@ -135,11 +146,11 @@
 (req-package flycheck-haskell
     :config (add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
-(req-package shm
-  :require haskell-mode
-  :commands structured-haskell-mode
-  :init (add-hook 'haskell-mode-hook
-		  'structured-haskell-mode))
+;;(req-package shm
+;;  :require haskell-mode
+;;  :commands structured-haskell-mode
+;;  :init (add-hook 'haskell-mode-hook
+;;		  'structured-haskell-mode))
 ;;  :config
 ;;  (eval-after-load 'shm
 ;;   '(progn
@@ -198,7 +209,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(hindent-style "chris-done"))
+ '(hindent-style "chris-done")
+ '(package-selected-packages
+   (quote
+    (neotree ac-haskell-process flycheck-haskell helm-flycheck powerline rainbow-delimiters noctilux-theme yasnippet web-mode stack-mode smex smartparens shm req-package projectile prodigy popwin pallet nyan-mode multiple-cursors moe-theme magit idle-highlight-mode htmlize hindent flycheck-pos-tip flycheck-cask expand-region exec-path-from-shell drag-stuff company-ghc))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

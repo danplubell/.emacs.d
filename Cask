@@ -11,6 +11,7 @@
 (depends-on "f")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
+(depends-on "flycheck-pos-tip")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
 (depends-on "magit")
@@ -37,3 +38,4 @@
 (depends-on "company-ghc")
 (depends-on "stack-mode")
 (depends-on "hindent")
+
