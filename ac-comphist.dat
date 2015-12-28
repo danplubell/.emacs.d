@@ -1,866 +1,910 @@
-((("exec-path-from-shell-initialize" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("window-system" .
+((("haskell-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("dash-at-point" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("memq" .
-   [1 0 0 0])
-  ("when" .
-   [1 0 0 0])
-  (":config" .
-   [1 0 0 0 0 0 0])
-  ("Dictionary" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("isNothing" .
-   [1 0 0 0 0 0 0 0 0])
-  ("ele" .
-   [1 0 0])
-  ("grpNbr'" .
-   [2 0 0 0 0 0 0])
-  ("skipNonDictElement" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("RecordWildCards" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("DictElement" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("Skip" .
-   [3 0 0 0])
-  ("mkMapEntry" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("mkDictionary" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("parsed" .
-   [2 0 0 0 0 0])
-  ("parseDictionary" .
+  ("global-set-key" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UIDDictionary" .
+   [3 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("mkUIDDictionary" .
    [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("parseOnly" .
-   [2 0 0 0 0 0 0 0 0])
-  ("dictionaryParser" .
-   [2 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("Comment" .
-   [4 0 0 0 0 0 0])
-  ("frstChar" .
-   [1 0 0 0 0 0 0 0])
-  ("vmv" .
-   [2 0 0])
-  ("isSpace" .
-   [1 0 0 0 0 0 0])
-  ("char" .
-   [7 0 0 0])
-  ("takeTill" .
-   [6 0 0 0 0 0 0 0])
-  ("elementNbr" .
-   [2 0 0 0 0 0 0 1 0 0])
-  ("parseDataElement" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("GenParser" .
-   [1 0 0 0 0 0 0 0 0])
-  ("dicomFile" .
-   [1 0 0 0 0 0 0 0 0])
-  ("0xFFFFFFFF" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("getWord32le" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("tagv" .
-   [14 0 0 0])
-  ("traceM" .
-   [4 0 0 0 0 0])
-  ("getTag" .
-   [3 0 0 0 0 0])
-  ("DataElement" .
-   [20 0 0 0 0 0 0 0 0 0 0])
-  ("decodeItem" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("decodeElement" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Word16" .
-   [11 0 0 0 0 0])
-  ("elemNbr" .
-   [5 0 0 0 0 0 0])
-  ("getWord16le" .
-   [1 0 0 0 0 0 0 2 0 0 0])
-  ("groupNbr" .
-   [9 0 0 0 0 0 0 0])
-  ("getByteString" .
-   [3 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("dicm" .
-   [3 0 0 0])
-  ("preAmble" .
-   [2 0 0 0 0 0 0 0])
-  ("deserializeHeader" .
-   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("safe" .
-   [1 0 0 0])
-  ("ioErrors" .
-   [2 0 0 0 0 0 0 0])
-  ("typeOf" .
-   [1 0 0 0 0 0])
-  ("req-package" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("void" .
-   [4 0 0 0])
-  ("respond" .
-   [2 0 0 0 0 0 0])
-  ("Warp" .
-   [1 0 0 0])
-  ("pending_conn" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("backupApp" .
-   [1 0 0 0 0 0 0 0 0])
-  ("wsApp" .
-   [2 0 0 0 0])
-  ("WebSockets" .
-   [1 0 0 1 0 0 0 0 0 0])
-  ("chtmsg" .
-   [3 0 0 0 0 0])
-  ("decodeUtf8" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("pemName" .
-   [1 0 0 0 0 0 0])
-  ("toEnum" .
-   [1 0 0 0 0 0])
-  ("head" .
-   [1 0 0 0])
-  ("fromEnum" .
-   [3 0 0 0 0 0 0 0])
-  ("splitAt" .
-   [5 0 0 0 0 0 0])
-  ("BSC" .
-   [13 0 0])
-  ("content" .
-   [1 0 0 0 0 0 0])
-  ("LBS" .
-   [2 0 0])
-  ("import" .
-   [1 0 0 0 0 0])
-  ("chains" .
-   [9 0 0 0 0 0])
-  ("getKeyChains" .
-   [10 0 0 0 0 0 0 0 0 0 0 0])
-  ("credeither" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("cred" .
-   [1 0 0 0])
-  ("recvData" .
-   [3 0 0 0 0 0 0 0])
-  ("Context" .
-   [1 0 0 0 0 0 0])
-  ("server" .
-   [1 0 0 0 0 0])
-  ("portNumber" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("port" .
-   [5 0 0 0])
-  ("chtMsg" .
-   [5 0 0 0 0 0])
-  ("lineMsg" .
-   [3 0 0 0 0 0 0])
-  ("bodyBytes" .
-   [1 0 0 0 0 0 0 0 0])
-  ("body" .
-   [2 0 0 0])
-  ("lenBytes" .
-   [1 0 0 0 0 0 0 0])
-  ("typBytes" .
-   [1 0 0 0 0 0 0 0])
-  ("msgLen" .
-   [1 0 0 0 0 0])
-  ("Shutdown" .
-   [1 0 0 0 0 0 0 0])
-  ("startReceiver" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("recvd" .
-   [4 0 0 0 0])
-  ("fromStrict" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("chatMsg'" .
-   [1 0 0 0 0 0 0 0])
-  ("msgBody" .
-   [7 0 0 0 0 0 0])
-  ("recvloop" .
-   [1 0 0 0 0 0 0 0])
-  ("chatMsg" .
-   [3 0 0 0 0 0 0])
-  ("mkMsg" .
-   [6 0 0 0 0])
-  ("sendMsg" .
-   [3 0 0 0 0 0 0])
-  ("PayLoadMsg" .
-   [6 0 0 1 0 0 0 4 0 0])
-  ("Binary" .
-   [2 0 0 0 0 0])
-  ("Generic" .
-   [1 0 0 0 0 0 0])
-  ("grtMsg" .
-   [2 0 0 1 0 0])
-  ("InvalidType" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("toMsgType" .
-   [4 0 0 0 0 0 0 0 0])
-  ("GreetResp" .
-   [2 0 0 0 0 0 0 0 0])
-  ("GreetReq" .
-   [5 0 0 0 0 0 0 0])
-  ("toTypeVal" .
-   [5 0 0 0 0 0 0 0 0])
-  ("Word8" .
-   [8 0 0 0 0])
-  ("MsgType" .
-   [3 0 0 0 0 0 0])
-  ("GreetMsg" .
-   [9 0 0 0 0 0 0 0])
-  ("mkPayLoadMsg" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("Chat" .
-   [5 0 0 0])
-  ("ChatMsg" .
-   [5 0 0 0 0 0 0])
-  ("encode" .
-   [8 0 0 0 0 0])
-  ("toStrict" .
-   [8 0 0 1 0 0 0 0])
-  ("atomically" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("readFromQueue" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("writeTQueue" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("addToQueue" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("OverloadedStrings" .
-   [0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("recv" .
-   [1 0 0 0])
-  ("sendAll" .
-   [3 0 0 0 0 0 0])
-  ("sent" .
-   [1 0 0 0])
-  ("addrAddress" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("newaddr" .
-   [3 0 0 0 0 0 0])
-  ("SockAddrInet6" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("connect" .
-   [1 0 0 0 0 0 0])
-  ("addr" .
-   [8 0 0 0])
-  ("getAddrInfo" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("AF_INET6" .
-   [1 0 0 0 0 0 0 0])
-  ("addrInfo" .
-   [3 0 0 0 0 0 0 0])
-  ("protocol" .
-   [2 0 0 0 0 0 0 0])
-  ("getProtocolNumber" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("reader" .
-   [1 0 0 0 0 0])
-  ("System" .
-   [6 0 0 0 0 0])
-  ("runComm" .
-   [1 0 0 0 0 0 0])
-  ("SockAddr" .
-   [2 0 0 0 0 0 0 0])
-  ("runConn" .
-   [7 0 0 0 0 0 0])
-  ("accept" .
-   [2 0 0 0 0 0])
-  ("mainLoop" .
-   [9 0 0 0 1 0 0 0])
-  ("Socket" .
-   [9 0 0 0 0 0])
-  ("listen" .
-   [1 0 0 0 0 0])
-  ("sock" .
-   [39 0 0 0])
-  ("throw" .
-   [1 0 0 0 0])
-  ("Exception" .
-   [5 0 0 0 0 0 0 0 0])
-  ("putitback" .
-   [5 0 0 0 0 0 0 0 0])
-  ("throwIO" .
-   [1 0 0 0 0 0 0])
-  ("catch" .
-   [1 0 0 0 0])
-  ("recover" .
-   [2 0 0 0 0 0 0])
-  ("SomeException" .
-   [23 0 0 0 4 0 0 0 0 0 0 0 0])
-  ("restore" .
-   [5 0 0 0 0 0 0])
-  ("problem" .
-   [1 0 0 0 0 0 0])
-  ("Async'" .
-   [3 0 0 0 0 0])
-  ("var" .
-   [2 0 0])
-  ("waitCatch'" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Async" .
-   [3 0 0 0 0])
-  ("waitCatch" .
-   [2 0 0 0 0 0 0 0 0])
-  ("sites" .
-   [1 0 0 0 0])
-  ("timeToDownload" .
+  ("dicomUIDTable" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("loadDictionary" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("async" .
-   [1 0 0 0 0])
-  ("mapM" .
+  ("DicomDictionary" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("LANGUAGE" .
+   [0 0 0 0 0 0 1 0])
+  ("grp'" .
    [1 0 0 0])
-  ("newtype" .
-   [0 0 0 1 0 0 0])
-  ("putMVar" .
-   [10 0 0 0 0 0 0])
-  ("takeMVar" .
-   [5 0 0 0 0 0 0 0])
-  ("book" .
-   [4 0 0 0])
-  ("number" .
-   [1 0 0 0 0 0])
-  ("insert" .
-   [3 0 0 0 0 0])
-  ("PhoneBook" .
-   [2 0 0 0 0 0 0 0 0])
-  ("PhoneBookState" .
-   [8 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("PhoneNumber" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("Name" .
-   [3 0 0 0])
-  ("Control" .
-   [13 0 0 0 0 0 1])
-  ("setReminder" .
-   [3 0 0 2 0 0 0 0 0 0 0])
-  ("decodeOracleEg" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("Start" .
-   [3 0 0 0 0])
-  ("unpack" .
-   [20 0 0 0 0 0])
-  ("encodeBindReq" .
+  ("mkDataElement" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("LdapMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("ToAsn1" .
-   [2 0 0 0 0 0])
-  ("Client" .
-   [1 0 0 0 0 0])
-  ("ByteString" .
-   [40 0 0 0 0 0 0 0 0 0])
-  ("Type" .
-   [5 0 0 0])
-  ("encodeIt" .
-   [21 0 0 0 0 0 1 1])
-  ("ASN1" .
-   [8 0 0 0])
-  ("ASNT" .
-   [11 0 0 0])
-  ("Asn1" .
-   [3 0 0 0])
-  ("Data" .
-   [45 0 0 0])
-  ("args" .
-   [1 0 0 0])
-  ("getArgs" .
-   [1 0 0 0 0 0 0])
-  ("transport" .
-   [6 0 0 0 0 0 0 0 0])
-  ("defaultTCPParameters" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
-  ("createTransport" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("open" .
-   [2 0 0 0])
-  ("PortNumber" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("Transport" .
-   [1 0 0 0 0 0 0 0 1])
-  ("LdapError" .
-   [3 0 0 0 0 0 0 0 0])
-  ("Port" .
-   [5 0 0 0])
-  ("HostName" .
-   [6 0 0 0 0 0 0 0])
-  ("readCode" .
-   [2 0 0 0 0 0 0 0])
-  ("hClose" .
-   [1 0 0 0 0 0])
-  ("TokenOp" .
-   [1 0 0 0 0 0 0])
-  ("TokenNumber" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("RightParen" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("LeftParen" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Paren" .
-   [1 0 0 0 0])
-  ("TokenParen" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("Token" .
-   [1 0 0 0 0])
-  ("emitTokens" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("hPutStrLn" .
-   [4 0 0 0 0 1 0 0 0])
-  ("mappend" .
-   [3 0 0 0 0 0 0])
-  ("foldl" .
-   [3 0 0 0 0])
-  ("handle" .
-   [4 0 0 0 0 0])
-  ("line" .
-   [5 0 0 0])
-  ("input" .
-   [11 0 0 0 0])
-  ("files" .
-   [2 0 0 0 0])
-  ("stdin" .
-   [1 0 0 0 0])
-  ("hinp" .
-   [3 0 0 0])
-  ("flgs" .
-   [1 0 0 0])
-  ("emitInstructions" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("generate" .
-   [2 0 0 0 0 0 0 0])
-  ("parse" .
-   [5 0 0 0 0])
-  ("tokenize" .
-   [8 0 0 0 0 0 0 0])
-  ("hGetContents" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("TokenizeOnly" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("hPutStr" .
-   [1 0 0 0 0 0 0])
-  ("stdout" .
-   [5 0 0 0 0 0])
-  ("hout" .
-   [11 0 0 0])
-  ("openFile" .
-   [1 0 0 0 0 0 0 0])
-  ("ParseOnly" .
-   [0 0 0 0 0 1 0 0 0])
-  ("hPrint" .
-   [5 0 0 0 0 0])
-  ("takeWhile" .
-   [1 0 0 0 0 0 0 0 0])
-  ("not" .
-   [1 0 0])
-  ("null" .
-   [1 0 0 0])
-  ("lines" .
-   [8 0 0 0 0])
-  ("<$>" .
-   [1 0 0])
-  ("printTree" .
-   [4 0 0 0 0 0 0 0 0])
-  ("level" .
-   [3 0 0 0 0])
-  ("nextPad" .
-   [8 0 0 0 0 0 0])
-  ("traverseChildren" .
-   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("Tree" .
-   [4 0 0 0])
-  ("strl'" .
-   [3 0 0 0 0])
-  ("defun" .
-   [2 0 0 0 0])
-  ("let" .
-   [4 0 0])
-  ("haskell-process-get" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process-get-repl-completions" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell-process" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("prefix" .
-   [1 0 0 0 0 0])
-  ("remove-if" .
-   [1 0 0 0 0 0 0 0 0])
-  ("lambda" .
-   [1 0 0 0 0 0])
-  ("string" .
-   [1 0 0 0 0 0])
-  ("ac-define-source" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("haskell" .
-   [1 0 0 0 0 0 0])
-  ("hc-ac-haskell-candidates" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-prefix" .
-   [0 0 0 0 0 0 0 0 1])
-  ("add-to-list" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("ac-sources" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [1 0 0 0 0 0 0 0])
-  ("haskell-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("hc-haskell-hook" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("Code" .
-   [4 0 0 0])
-  ("loadCodes" .
-   [3 0 0 0 1 0 0 0 0])
-  ("resolveCode" .
+  ("expandGroup" .
    [2 0 0 0 0 0 0 0 0 0 0])
-  ("evaluateCodes" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("evaluate" .
-   [1 0 0 0 0 0 0 0])
-  ("EmptyState" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("evaluateCode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("Evaluator" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Generator" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Parser" .
-   [2 0 0 0 0 0])
-  ("Tokenizer" .
-   [1 0 0 0 0 0 0 0 0])
-  ("serverAddr" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("endpoint" .
-   [4 0 0 0 0 0 0 0])
-  ("error" .
-   [0 0 0 1 0])
-  ("newEndPoint" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("Error" .
-   [1 0 0 0 0])
-  ("Conn" .
-   [8 0 0 0])
-  ("Ldap" .
-   [3 0 0 0])
-  ("connParams" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("Connection" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("ConnectionParams" .
-   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("conn" .
-   [8 0 0 0])
-  ("bind" .
+  ("60FF" .
    [1 0 0 0])
-  ("Types" .
-   [1 0 0 0 0])
-  ("LDAPMessage" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("messageID" .
-   [1 0 0 0 0 0 0 1 0])
-  ("Protocolop" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("BindRequest" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("Simple" .
-   [8 0 0 0 0 0])
-  ("protocolOp" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("ProtocolOp" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("Controls" .
-   [3 0 0 0 0 0 0 0])
-  ("Show" .
-   [3 0 0 0])
-  ("controls" .
-   [1 0 0 0 0 0 0 0])
-  ("toASN1" .
-   [5 0 0 1 0 0])
-  ("IntVal" .
-   [2 0 0 0 0 0])
-  ("ASN1Object" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("fromASN1" .
-   [1 0 0 0 0 0 0 0])
-  ("version" .
-   [3 0 0 0 0 0 0])
-  ("name" .
-   [10 0 0 0])
-  ("authentication" .
-   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("BSC8" .
-   [7 0 0 0])
-  ("Sequence" .
-   [6 0 0 0 0 0 0 0])
-  ("main'" .
-   [1 0 0 0 0])
-  ("main" .
-   [36 0 0 0])
-  ("bindr" .
-   [2 0 0 0 0])
-  ("bindreq" .
-   [1 0 0 0 0 0 0])
-  ("Char8" .
-   [3 0 0 0 1])
-  ("length" .
+  ("nam" .
+   [3 0 0])
+  ("eleNbr" .
    [9 0 0 0 0 0])
-  ("Other" .
-   [3 0 0 0 0])
-  ("Application" .
-   [5 0 0 0 0 0 0 0 0 0 0])
-  ("empty" .
-   [8 0 0 0 0])
-  ("e" .
-   [1])
-  ("End" .
-   [2 0 0])
-  ("BinaryEncoding" .
-   [0 0 0 0 1 0 0 0 1 0 0 0 0 0])
-  ("toasn" .
-   [3 0 0 0 0])
-  ("Container" .
-   [2 0 0 0 0 0 0 0 0])
-  ("pack" .
-   [8 0 0 0])
-  ("BSL" .
-   [1 0 0])
-  ("decodeit" .
-   [1 0 0 0 0 0 0 0])
-  ("OctetString" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("loop" .
-   [5 0 0 0])
-  ("forkIO" .
-   [2 0 0 0 0 0])
-  ("initLogger" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("logMessage" .
+  ("readHex" .
+   [6 0 0 0 0 0 0])
+  ("grpNbr" .
+   [11 0 0 0 0 0])
+  ("mkElements" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("logStop" .
-   [1 0 0 0 0 0 0])
-  ("Concurrent" .
-   [6 0 0 0 0 1 0 0 0 0])
-  ("Item" .
-   [4 0 0 0])
-  ("Stream" .
-   [5 0 0 0 0 1])
-  ("Chan" .
-   [15 0 0 0])
-  ("MVar" .
-   [6 0 0 0])
-  ("newChan" .
-   [2 0 0 0 0 0 0])
-  ("hole" .
-   [5 0 0 0])
-  ("readVar" .
-   [5 0 0 0 0 0 0])
-  ("newMVar" .
-   [2 0 0 0 0 0 0])
-  ("write" .
-   [2 0 0 0 0])
-  ("writeVar" .
-   [8 0 0 0 0 0 0 0])
-  ("writeChan" .
-   [2 0 0 0 0 0 0 0 0])
-  ("newEmptyMVar" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("oldHole" .
-   [1 0 0 0 0 0 0])
-  ("newHole" .
-   [2 0 0 0 0 0 0])
-  ("readChan" .
-   [1 0 0 0 0 0 0 0])
-  ("dupChan" .
-   [1 0 0 0 0 0 0])
-  ("hold" .
-   [1 0 0 0])
-  ("readMVar" .
-   [2 0 0 0 0 0 0 0])
-  ("newReadVar" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("getURL" .
-   [2 0 0 0 0 0])
-  ("socket" .
-   [2 0 0 0 0 0])
-  ("TQueue" .
-   [7 0 0 0 0 0])
-  ("queue" .
-   [7 0 0 0 0])
-  ("MsgPayload" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Word" .
-   [1 0 0 0])
-  ("recvMsgFromQueue" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("decode" .
-   [7 0 0 0 0 0])
-  ("replicateM" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("readTQueue" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("readSome" .
-   [4 0 0 0 0 0 0 0])
-  ("bytes" .
-   [3 0 0 0 0])
-  ("addBufferToQueue" .
-   [2 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("nameMsg" .
-   [4 0 0 0 0 0 0])
-  ("receiver" .
-   [2 0 0 0 0 0 0 0])
-  ("killThread" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("msgType" .
-   [4 0 0 0 0 0 0])
-  ("msgRecv" .
-   [15 0 0 0 0 0 0])
-  ("nameResp" .
-   [1 0 0 0 0 0 0 0])
-  ("ipAddr" .
-   [2 0 0 0 0 0])
-  ("doIt" .
-   [2 0 0 0])
-  ("doItAgain" .
-   [2 0 0 0 0 0 0 0 0])
-  ("stuff" .
-   [5 0 0 0 0])
-  ("stuff''" .
-   [1 0 0 0 0 0 0])
-  ("loopRecvData" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("Default" .
-   [1 0 0 0 0 0 0])
-  ("Class" .
-   [1 0 0 0 0])
-  ("X509" .
-   [4 0 0 0])
-  ("CertificateStore" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("TLS" .
-   [2 0 0])
-  ("Extra" .
-   [1 0 0 0 0])
-  ("ifdef" .
-   [2 0 0 0 0])
-  ("darwin_HOST_OS" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("MacOS" .
-   [1 0 0 0 0])
-  ("linux_HOST_OS" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("Linux" .
-   [1 0 0 0 0])
-  ("endif" .
-   [2 0 0 0 0])
-  ("ctx" .
-   [12 0 0])
-  ("contextNew" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("getDefaultParams" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("store" .
-   [3 0 0 0 0])
-  ("getSystemCertificateStore" .
-   [1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("sClose" .
+  ("showHex" .
+   [6 0 0 0 0 0 0])
+  ("contents" .
+   [3 0 0 0 0 0 0 0])
+  ("InformationEntitie" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("config" .
    [1 0 0 0 0 0])
-  ("bye" .
-   [1 0 0])
-  ("decodeMsgBody" .
-   [10 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("handshake" .
-   [1 0 0 0 0 0 0 0 0])
-  ("/Users/cerdep/Library/Keychains/login" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("keychain" .
-   [0 0 0 1 0 0 0 0])
-  ("paths" .
-   [2 0 0 0 0])
-  ("breakSubString" .
+  ("userErrors" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("errorCalls" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("fromException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("fromJust" .
+   [3 0 0 0 0 0 0 0])
+  ("isJust" .
+   [3 0 0 0 0 0])
+  ("testit" .
+   [1 0 0 0 0 0])
+  ("popen" .
+   [1 0 0 0 0])
+  ("liftM" .
+   [1 0 0 0 0])
+  ("Handle" .
+   [1 0 0 0 0 0])
+  ("Handler" .
+   [1 0 0 0 0 0 0])
+  ("application" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("settings" .
+   [2 0 0 0 0 0 0 0])
+  ("grtmsg" .
+   [1 0 0 0 0 0])
+  ("dispPayLoadMsg" .
+   [1 0 0 0 4 0 0 0 0 0 0 0 0 0])
+  ("encodeUtf8" .
+   [4 0 0 0 0 0 0 2 0 1])
+  ("Text" .
+   [5 0 0 0])
+  ("waitForProcess" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("targets" .
+   [2 0 0 0 0 0 0])
+  ("pems" .
+   [3 0 0 0])
+  ("CreatePipe" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("std_out" .
+   [1 0 0 0 0 0 0])
+  ("keyChains" .
+   [6 0 0 0 0 0 0 0 0])
+  ("proc" .
+   [1 0 0 0])
+  ("createProcess" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("listInKeyChains" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("breakSubstring" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("pathsRaw" .
    [1 0 0 0 0 0 0 0])
-  ("breakSubstring" .
+  ("breakSubString" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("listInKeyChains" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("createProcess" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("proc" .
-   [1 0 0 0])
-  ("keyChains" .
-   [6 0 0 0 0 0 0 0 0])
-  ("std_out" .
-   [1 0 0 0 0 0 0])
-  ("CreatePipe" .
+  ("paths" .
+   [2 0 0 0 0])
+  ("keychain" .
+   [0 0 0 1 0 0 0 0])
+  ("/Users/cerdep/Library/Keychains/login" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("handshake" .
+   [1 0 0 0 0 0 0 0 0])
+  ("decodeMsgBody" .
+   [10 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("bye" .
+   [1 0 0])
+  ("sClose" .
+   [1 0 0 0 0 0])
+  ("getSystemCertificateStore" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("store" .
+   [3 0 0 0 0])
+  ("getDefaultParams" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("contextNew" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("pems" .
-   [3 0 0 0])
-  ("targets" .
-   [2 0 0 0 0 0 0])
-  ("waitForProcess" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Text" .
-   [5 0 0 0])
-  ("encodeUtf8" .
-   [4 0 0 0 0 0 0 2 0 1])
-  ("dispPayLoadMsg" .
-   [1 0 0 0 4 0 0 0 0 0 0 0 0 0])
-  ("grtmsg" .
-   [1 0 0 0 0 0])
-  ("settings" .
-   [2 0 0 0 0 0 0 0])
-  ("application" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("Handler" .
+  ("ctx" .
+   [12 0 0])
+  ("endif" .
+   [2 0 0 0 0])
+  ("Linux" .
+   [1 0 0 0 0])
+  ("linux_HOST_OS" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("MacOS" .
+   [1 0 0 0 0])
+  ("darwin_HOST_OS" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("ifdef" .
+   [2 0 0 0 0])
+  ("Extra" .
+   [1 0 0 0 0])
+  ("TLS" .
+   [2 0 0])
+  ("CertificateStore" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("X509" .
+   [4 0 0 0])
+  ("Class" .
+   [1 0 0 0 0])
+  ("Default" .
    [1 0 0 0 0 0 0])
-  ("Handle" .
-   [1 0 0 0 0 0])
-  ("liftM" .
-   [1 0 0 0 0])
-  ("popen" .
-   [1 0 0 0 0])
-  ("testit" .
-   [1 0 0 0 0 0])
-  ("isJust" .
-   [3 0 0 0 0 0])
-  ("fromJust" .
-   [3 0 0 0 0 0 0 0])
-  ("fromException" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("errorCalls" .
+  ("loopRecvData" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("stuff''" .
+   [1 0 0 0 0 0 0])
+  ("stuff" .
+   [5 0 0 0 0])
+  ("doItAgain" .
+   [2 0 0 0 0 0 0 0 0])
+  ("doIt" .
+   [2 0 0 0])
+  ("ipAddr" .
+   [2 0 0 0 0 0])
+  ("nameResp" .
+   [1 0 0 0 0 0 0 0])
+  ("msgRecv" .
+   [15 0 0 0 0 0 0])
+  ("msgType" .
+   [4 0 0 0 0 0 0])
+  ("killThread" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("receiver" .
+   [2 0 0 0 0 0 0 0])
+  ("nameMsg" .
+   [4 0 0 0 0 0 0])
+  ("addBufferToQueue" .
+   [2 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("bytes" .
+   [3 0 0 0 0])
+  ("readSome" .
+   [4 0 0 0 0 0 0 0])
+  ("readTQueue" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("userErrors" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("config" .
-   [1 0 0 0 0 0])
-  ("InformationEntitie" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("contents" .
-   [3 0 0 0 0 0 0 0])
-  ("showHex" .
-   [6 0 0 0 0 0 0])
-  ("mkElements" .
+  ("replicateM" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("grpNbr" .
-   [11 0 0 0 0 0])
-  ("readHex" .
-   [6 0 0 0 0 0 0])
-  ("eleNbr" .
+  ("decode" .
+   [7 0 0 0 0 0])
+  ("recvMsgFromQueue" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Word" .
+   [1 0 0 0])
+  ("MsgPayload" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("queue" .
+   [7 0 0 0 0])
+  ("TQueue" .
+   [7 0 0 0 0 0])
+  ("socket" .
+   [2 0 0 0 0 0])
+  ("getURL" .
+   [2 0 0 0 0 0])
+  ("newReadVar" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("readMVar" .
+   [2 0 0 0 0 0 0 0])
+  ("hold" .
+   [1 0 0 0])
+  ("dupChan" .
+   [1 0 0 0 0 0 0])
+  ("readChan" .
+   [1 0 0 0 0 0 0 0])
+  ("newHole" .
+   [2 0 0 0 0 0 0])
+  ("oldHole" .
+   [1 0 0 0 0 0 0])
+  ("newEmptyMVar" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("writeChan" .
+   [2 0 0 0 0 0 0 0 0])
+  ("writeVar" .
+   [8 0 0 0 0 0 0 0])
+  ("write" .
+   [2 0 0 0 0])
+  ("newMVar" .
+   [2 0 0 0 0 0 0])
+  ("readVar" .
+   [5 0 0 0 0 0 0])
+  ("hole" .
+   [5 0 0 0])
+  ("newChan" .
+   [2 0 0 0 0 0 0])
+  ("MVar" .
+   [6 0 0 0])
+  ("Chan" .
+   [15 0 0 0])
+  ("Stream" .
+   [5 0 0 0 0 1])
+  ("Item" .
+   [4 0 0 0])
+  ("Concurrent" .
+   [6 0 0 0 0 1 0 0 0 0])
+  ("logStop" .
+   [1 0 0 0 0 0 0])
+  ("logMessage" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("initLogger" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("forkIO" .
+   [2 0 0 0 0 0])
+  ("loop" .
+   [5 0 0 0])
+  ("OctetString" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("decodeit" .
+   [1 0 0 0 0 0 0 0])
+  ("BSL" .
+   [1 0 0])
+  ("pack" .
+   [8 0 0 0])
+  ("Container" .
+   [2 0 0 0 0 0 0 0 0])
+  ("toasn" .
+   [3 0 0 0 0])
+  ("BinaryEncoding" .
+   [0 0 0 0 1 0 0 0 1 0 0 0 0 0])
+  ("End" .
+   [2 0 0])
+  ("e" .
+   [1])
+  ("empty" .
+   [8 0 0 0 0])
+  ("Application" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("Other" .
+   [3 0 0 0 0])
+  ("length" .
    [9 0 0 0 0 0])
-  ("nam" .
-   [3 0 0])
-  ("60FF" .
+  ("Char8" .
+   [3 0 0 0 1])
+  ("bindreq" .
+   [1 0 0 0 0 0 0])
+  ("bindr" .
+   [2 0 0 0 0])
+  ("main" .
+   [36 0 0 0])
+  ("main'" .
+   [1 0 0 0 0])
+  ("Sequence" .
+   [6 0 0 0 0 0 0 0])
+  ("BSC8" .
+   [7 0 0 0])
+  ("authentication" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("name" .
+   [10 0 0 0])
+  ("version" .
+   [3 0 0 0 0 0 0])
+  ("fromASN1" .
+   [1 0 0 0 0 0 0 0])
+  ("ASN1Object" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("IntVal" .
+   [2 0 0 0 0 0])
+  ("toASN1" .
+   [5 0 0 1 0 0])
+  ("controls" .
+   [1 0 0 0 0 0 0 0])
+  ("Show" .
+   [3 0 0 0])
+  ("Controls" .
+   [3 0 0 0 0 0 0 0])
+  ("ProtocolOp" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("protocolOp" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("Simple" .
+   [8 0 0 0 0 0])
+  ("BindRequest" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("Protocolop" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("messageID" .
+   [1 0 0 0 0 0 0 1 0])
+  ("LDAPMessage" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("Types" .
+   [1 0 0 0 0])
+  ("bind" .
    [1 0 0 0])
-  ("expandGroup" .
+  ("conn" .
+   [8 0 0 0])
+  ("ConnectionParams" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Connection" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("connParams" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("Ldap" .
+   [3 0 0 0])
+  ("Conn" .
+   [8 0 0 0])
+  ("Error" .
+   [1 0 0 0 0])
+  ("newEndPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("error" .
+   [0 0 0 1 0])
+  ("endpoint" .
+   [4 0 0 0 0 0 0 0])
+  ("serverAddr" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Tokenizer" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Parser" .
+   [2 0 0 0 0 0])
+  ("Generator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Evaluator" .
+   [1 0 0 0 0 0 0 0 0])
+  ("evaluateCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("EmptyState" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("evaluate" .
+   [1 0 0 0 0 0 0 0])
+  ("evaluateCodes" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("resolveCode" .
    [2 0 0 0 0 0 0 0 0 0 0])
-  ("mkDataElement" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("grp'" .
+  ("loadCodes" .
+   [3 0 0 0 1 0 0 0 0])
+  ("Code" .
+   [4 0 0 0])
+  ("hc-haskell-hook" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("haskell-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("ac-sources" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("ac-prefix" .
+   [0 0 0 0 0 0 0 0 1])
+  ("hc-ac-haskell-candidates" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("haskell" .
+   [1 0 0 0 0 0 0])
+  ("ac-define-source" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("lambda" .
+   [1 0 0 0 0 0])
+  ("remove-if" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prefix" .
+   [1 0 0 0 0 0])
+  ("haskell-process" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-get-repl-completions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haskell-process-get" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("let" .
+   [4 0 0])
+  ("defun" .
+   [2 0 0 0 0])
+  ("strl'" .
+   [3 0 0 0 0])
+  ("Tree" .
+   [4 0 0 0])
+  ("traverseChildren" .
+   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("nextPad" .
+   [8 0 0 0 0 0 0])
+  ("level" .
+   [3 0 0 0 0])
+  ("printTree" .
+   [4 0 0 0 0 0 0 0 0])
+  ("<$>" .
+   [1 0 0])
+  ("lines" .
+   [8 0 0 0 0])
+  ("null" .
    [1 0 0 0])
-  ("LANGUAGE" .
-   [0 0 0 0 0 0 1 0])
-  ("DicomDictionary" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("loadDictionary" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("not" .
+   [1 0 0])
+  ("takeWhile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("hPrint" .
+   [5 0 0 0 0 0])
+  ("ParseOnly" .
+   [0 0 0 0 0 1 0 0 0])
+  ("openFile" .
+   [1 0 0 0 0 0 0 0])
+  ("hout" .
+   [11 0 0 0])
+  ("stdout" .
+   [5 0 0 0 0 0])
+  ("hPutStr" .
+   [1 0 0 0 0 0 0])
+  ("TokenizeOnly" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("hGetContents" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("tokenize" .
+   [8 0 0 0 0 0 0 0])
+  ("parse" .
+   [5 0 0 0 0])
+  ("generate" .
+   [2 0 0 0 0 0 0 0])
+  ("emitInstructions" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("flgs" .
+   [1 0 0 0])
+  ("hinp" .
+   [3 0 0 0])
+  ("stdin" .
+   [1 0 0 0 0])
+  ("files" .
+   [2 0 0 0 0])
+  ("input" .
+   [11 0 0 0 0])
+  ("line" .
+   [5 0 0 0])
+  ("handle" .
+   [4 0 0 0 0 0])
+  ("foldl" .
+   [3 0 0 0 0])
+  ("mappend" .
+   [3 0 0 0 0 0 0])
+  ("hPutStrLn" .
+   [4 0 0 0 0 1 0 0 0])
+  ("emitTokens" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Token" .
+   [1 0 0 0 0])
+  ("TokenParen" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Paren" .
+   [1 0 0 0 0])
+  ("LeftParen" .
+   [1 0 0 0 0 0 0 0 0])
+  ("RightParen" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("TokenNumber" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("TokenOp" .
+   [1 0 0 0 0 0 0])
+  ("hClose" .
+   [1 0 0 0 0 0])
+  ("readCode" .
+   [2 0 0 0 0 0 0 0])
+  ("HostName" .
+   [6 0 0 0 0 0 0 0])
+  ("Port" .
+   [5 0 0 0])
+  ("LdapError" .
+   [3 0 0 0 0 0 0 0 0])
+  ("Transport" .
+   [1 0 0 0 0 0 0 0 1])
+  ("PortNumber" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("open" .
+   [2 0 0 0])
+  ("createTransport" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defaultTCPParameters" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("transport" .
+   [6 0 0 0 0 0 0 0 0])
+  ("getArgs" .
+   [1 0 0 0 0 0 0])
+  ("args" .
+   [1 0 0 0])
+  ("Data" .
+   [49 0 0 0])
+  ("Asn1" .
+   [3 0 0 0])
+  ("ASNT" .
+   [11 0 0 0])
+  ("ASN1" .
+   [8 0 0 0])
+  ("encodeIt" .
+   [21 0 0 0 0 0 1 1])
+  ("Type" .
+   [5 0 0 0])
+  ("ByteString" .
+   [40 0 0 0 0 0 0 0 0 0])
+  ("Client" .
+   [1 0 0 0 0 0])
+  ("ToAsn1" .
+   [2 0 0 0 0 0])
+  ("LdapMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("encodeBindReq" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("unpack" .
+   [20 0 0 0 0 0])
+  ("Start" .
+   [3 0 0 0 0])
+  ("decodeOracleEg" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("setReminder" .
+   [3 0 0 2 0 0 0 0 0 0 0])
+  ("Control" .
+   [13 0 0 0 0 0 1])
+  ("Name" .
+   [3 0 0 0])
+  ("PhoneNumber" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("PhoneBookState" .
+   [8 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("PhoneBook" .
+   [2 0 0 0 0 0 0 0 0])
+  ("insert" .
+   [3 0 0 0 0 0])
+  ("number" .
+   [1 0 0 0 0 0])
+  ("book" .
+   [4 0 0 0])
+  ("takeMVar" .
+   [5 0 0 0 0 0 0 0])
+  ("putMVar" .
+   [10 0 0 0 0 0 0])
+  ("newtype" .
+   [0 0 0 1 0 0 0])
+  ("mapM" .
+   [1 0 0 0])
+  ("async" .
+   [1 0 0 0 0])
+  ("timeToDownload" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sites" .
+   [1 0 0 0 0])
+  ("waitCatch" .
+   [2 0 0 0 0 0 0 0 0])
+  ("Async" .
+   [3 0 0 0 0])
+  ("waitCatch'" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("var" .
+   [2 0 0])
+  ("Async'" .
+   [3 0 0 0 0 0])
+  ("problem" .
+   [1 0 0 0 0 0 0])
+  ("restore" .
+   [5 0 0 0 0 0 0])
+  ("SomeException" .
+   [23 0 0 0 4 0 0 0 0 0 0 0 0])
+  ("recover" .
+   [2 0 0 0 0 0 0])
+  ("catch" .
+   [1 0 0 0 0])
+  ("throwIO" .
+   [1 0 0 0 0 0 0])
+  ("putitback" .
+   [5 0 0 0 0 0 0 0 0])
+  ("Exception" .
+   [5 0 0 0 0 0 0 0 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("sock" .
+   [39 0 0 0])
+  ("listen" .
+   [1 0 0 0 0 0])
+  ("Socket" .
+   [9 0 0 0 0 0])
+  ("mainLoop" .
+   [9 0 0 0 1 0 0 0])
+  ("accept" .
+   [2 0 0 0 0 0])
+  ("runConn" .
+   [7 0 0 0 0 0 0])
+  ("SockAddr" .
+   [2 0 0 0 0 0 0 0])
+  ("runComm" .
+   [1 0 0 0 0 0 0])
+  ("System" .
+   [6 0 0 0 0 0])
+  ("reader" .
+   [1 0 0 0 0 0])
+  ("getProtocolNumber" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("protocol" .
+   [2 0 0 0 0 0 0 0])
+  ("addrInfo" .
+   [3 0 0 0 0 0 0 0])
+  ("AF_INET6" .
+   [1 0 0 0 0 0 0 0])
+  ("getAddrInfo" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("addr" .
+   [8 0 0 0])
+  ("connect" .
+   [1 0 0 0 0 0 0])
+  ("SockAddrInet6" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newaddr" .
+   [3 0 0 0 0 0 0])
+  ("addrAddress" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("sent" .
+   [1 0 0 0])
+  ("sendAll" .
+   [3 0 0 0 0 0 0])
+  ("recv" .
+   [1 0 0 0])
+  ("OverloadedStrings" .
+   [0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("addToQueue" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("writeTQueue" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("readFromQueue" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("atomically" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("toStrict" .
+   [8 0 0 1 0 0 0 0])
+  ("encode" .
+   [8 0 0 0 0 0])
+  ("ChatMsg" .
+   [5 0 0 0 0 0 0])
+  ("Chat" .
+   [5 0 0 0])
+  ("mkPayLoadMsg" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("GreetMsg" .
+   [9 0 0 0 0 0 0 0])
+  ("MsgType" .
+   [3 0 0 0 0 0 0])
+  ("Word8" .
+   [8 0 0 0 0])
+  ("toTypeVal" .
+   [5 0 0 0 0 0 0 0 0])
+  ("GreetReq" .
+   [5 0 0 0 0 0 0 0])
+  ("GreetResp" .
+   [2 0 0 0 0 0 0 0 0])
+  ("toMsgType" .
+   [4 0 0 0 0 0 0 0 0])
+  ("InvalidType" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("grtMsg" .
+   [2 0 0 1 0 0])
+  ("Generic" .
+   [1 0 0 0 0 0 0])
+  ("Binary" .
+   [2 0 0 0 0 0])
+  ("PayLoadMsg" .
+   [6 0 0 1 0 0 0 4 0 0])
+  ("sendMsg" .
+   [3 0 0 0 0 0 0])
+  ("mkMsg" .
+   [6 0 0 0 0])
+  ("chatMsg" .
+   [3 0 0 0 0 0 0])
+  ("recvloop" .
+   [1 0 0 0 0 0 0 0])
+  ("msgBody" .
+   [7 0 0 0 0 0 0])
+  ("chatMsg'" .
+   [1 0 0 0 0 0 0 0])
+  ("fromStrict" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("recvd" .
+   [4 0 0 0 0])
+  ("startReceiver" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Shutdown" .
+   [1 0 0 0 0 0 0 0])
+  ("msgLen" .
+   [1 0 0 0 0 0])
+  ("typBytes" .
+   [1 0 0 0 0 0 0 0])
+  ("lenBytes" .
+   [1 0 0 0 0 0 0 0])
+  ("body" .
+   [2 0 0 0])
+  ("bodyBytes" .
+   [1 0 0 0 0 0 0 0 0])
+  ("lineMsg" .
+   [3 0 0 0 0 0 0])
+  ("chtMsg" .
+   [5 0 0 0 0 0])
+  ("port" .
+   [5 0 0 0])
+  ("portNumber" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("server" .
+   [1 0 0 0 0 0])
+  ("Context" .
+   [1 0 0 0 0 0 0])
+  ("recvData" .
+   [3 0 0 0 0 0 0 0])
+  ("cred" .
+   [1 0 0 0])
+  ("credeither" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("getKeyChains" .
+   [10 0 0 0 0 0 0 0 0 0 0 0])
+  ("chains" .
+   [9 0 0 0 0 0])
+  ("import" .
+   [1 0 0 0 0 0])
+  ("LBS" .
+   [2 0 0])
+  ("content" .
+   [1 0 0 0 0 0 0])
+  ("BSC" .
+   [13 0 0])
+  ("splitAt" .
+   [5 0 0 0 0 0 0])
+  ("fromEnum" .
+   [3 0 0 0 0 0 0 0])
+  ("head" .
+   [1 0 0 0])
+  ("toEnum" .
+   [1 0 0 0 0 0])
+  ("pemName" .
+   [1 0 0 0 0 0 0])
+  ("decodeUtf8" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("chtmsg" .
+   [3 0 0 0 0 0])
+  ("WebSockets" .
+   [1 0 0 1 0 0 0 0 0 0])
+  ("wsApp" .
+   [2 0 0 0 0])
+  ("backupApp" .
+   [1 0 0 0 0 0 0 0 0])
+  ("pending_conn" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Warp" .
+   [1 0 0 0])
+  ("respond" .
+   [2 0 0 0 0 0 0])
+  ("void" .
+   [4 0 0 0])
+  ("req-package" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("typeOf" .
+   [1 0 0 0 0 0])
+  ("ioErrors" .
+   [2 0 0 0 0 0 0 0])
+  ("safe" .
+   [1 0 0 0])
+  ("deserializeHeader" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("preAmble" .
+   [2 0 0 0 0 0 0 0])
+  ("dicm" .
+   [3 0 0 0])
+  ("getByteString" .
+   [3 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("groupNbr" .
+   [9 0 0 0 0 0 0 0])
+  ("getWord16le" .
+   [1 0 0 0 0 0 0 2 0 0 0])
+  ("elemNbr" .
+   [5 0 0 0 0 0 0])
+  ("Word16" .
+   [11 0 0 0 0 0])
+  ("decodeElement" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("decodeItem" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("DataElement" .
+   [21 0 0 0 0 0 0 0 0 0 0])
+  ("getTag" .
+   [3 0 0 0 0 0])
+  ("traceM" .
+   [4 0 0 0 0 0])
+  ("tagv" .
+   [14 0 0 0])
+  ("getWord32le" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("0xFFFFFFFF" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("dicomFile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("GenParser" .
+   [1 0 0 0 0 0 0 0 0])
+  ("parseDataElement" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("elementNbr" .
+   [2 0 0 0 0 0 0 1 0 0])
+  ("takeTill" .
+   [6 0 0 0 0 0 0 0])
+  ("char" .
+   [7 0 0 0])
+  ("isSpace" .
+   [1 0 0 0 0 0 0])
+  ("vmv" .
+   [2 0 0])
+  ("frstChar" .
+   [1 0 0 0 0 0 0 0])
+  ("Comment" .
+   [4 0 0 0 0 0 0])
+  ("dictionaryParser" .
+   [2 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("parseOnly" .
+   [2 0 0 0 0 0 0 0 0])
+  ("parseDictionary" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parsed" .
+   [2 0 0 0 0 0])
+  ("mkDictionary" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("mkMapEntry" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Skip" .
+   [3 0 0 0])
+  ("DictElement" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("RecordWildCards" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("skipNonDictElement" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("grpNbr'" .
+   [2 0 0 0 0 0 0])
+  ("ele" .
+   [1 0 0])
+  ("isNothing" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Dictionary" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (":config" .
+   [1 0 0 0 0 0 0])
+  ("when" .
+   [1 0 0 0])
+  ("memq" .
+   [1 0 0 0])
+  ("window-system" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("exec-path-from-shell-initialize" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ImplicitVRLittleEndian" .
+   [2 0 0 1 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0])
+  ("UIDType" .
+   [1 0 0 0 0 0 0])
+  ("fromType" .
+   [2 0 0 0 0 0 0 0])
+  ("toType" .
+   [2 0 0 0 0 0])
+  ("Unknown" .
+   [2 0 0 0 0 0 0])
+  ("fromUID" .
+   [4 0 0 0 0 0 0])
+  ("toUID" .
+   [3 0 0 0 0])
+  ("ExplicitVRLittleEndian" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("uidList" .
+   [2 0 0 0 0 0 0])
+  ("mkUIDdb" .
+   [2 0 0 0 0 0 0])
+  ("DicomUID" .
+   [10 0 0 0 0 1 0 0])
+  ("lookupUID" .
+   [9 0 0 0 0 0 0 0 0])
+  ("Bimap" .
+   [6 0 0 0 0])
+  ("lookupUIDType" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DICOM" .
+   [2 0 0 0 0])
+  ("Model" .
+   [2 0 0 0 0])))

@@ -38,4 +38,4 @@
 (depends-on "company-ghc")
 (depends-on "stack-mode")
 (depends-on "hindent")
-
+(depends-on "dash-at-point")

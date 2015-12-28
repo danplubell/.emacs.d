@@ -9,6 +9,13 @@
 
 ;;(req-package moe-theme-switcher
 ;;    :require moe-theme)
+(req-package dash-at-point
+  :config
+  (global-set-key "\C-cd" 'dash-at-point)
+  (global-set-key "\C-ce" 'dash-at-point-with-docset)
+  (add-to-list 'dash-at-point-alist '(haskell-mode . "haskell"))
+  (add-to-list 'dash-at-point-alist '(haskell-mode . "hackage"))
+  )
 
 (req-package exe-path-from-shell
   :config
@@ -125,7 +132,7 @@
       (setq evil-auto-indent nil))
     (setq haskell-font-lock-symbols 'unicode)      
     (setq haskell-literate-default 'tex)
-;;    (setq haskell-stylish-on-save t)
+    (setq haskell-stylish-on-save t)
     (setq haskell-tags-on-save t)
     (setq haskell-process-log t)
     (setq haskell-process-load-or-reload-prompt t)
@@ -146,11 +153,11 @@
 (req-package flycheck-haskell
     :config (add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
-;;(req-package shm
-;;  :require haskell-mode
-;;  :commands structured-haskell-mode
-;;  :init (add-hook 'haskell-mode-hook
-;;		  'structured-haskell-mode))
+(req-package shm
+  :require haskell-mode
+  :commands structured-haskell-mode
+  :init (add-hook 'haskell-mode-hook
+		  'structured-haskell-mode))
 ;;  :config
 ;;  (eval-after-load 'shm
 ;;   '(progn
@@ -198,9 +205,9 @@
 (setq inhibit-startup-message t)
 (setq inhibit-startup-echo-area-message t)
 
-(setq initial-scratch-message
-      (concat "\nHello Dan. Today is: "
-	          (format-time-string "%A %d %B %Y at %T\n")))
+;;(setq initial-scratch-message
+;;      (concat "\nHello Dan. Today is: "
+;;	          (format-time-string "%A %d %B %Y at %T\n")))
 (req-package-finish)
 
 ;;; custom.el ends here
