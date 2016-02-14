@@ -9,6 +9,9 @@
 
 ;;(req-package moe-theme-switcher
 ;;    :require moe-theme)
+
+(setq org-log-done 'time)
+
 (req-package dash-at-point
   :config
   (global-set-key "\C-cd" 'dash-at-point)
@@ -92,8 +95,10 @@
     (setq flycheck-display-errors-function #'flycheck-display-error-messages))
  )
 
-
-
+(req-package speedbar
+  :config
+  (speedbar-add-supported-extension "hs")	     
+	     )
 (req-package helm-flycheck
   :require flycheck
   :commands helm-flycheck
@@ -129,6 +134,7 @@
       (turn-on-eldoc-mode)
       (diminish 'eldoc-mode "")
       (turn-on-haskell-decl-scan)
+      (imenu-add-menubar-index)
       (setq evil-auto-indent nil))
     (setq haskell-font-lock-symbols 'unicode)      
     (setq haskell-literate-default 'tex)
